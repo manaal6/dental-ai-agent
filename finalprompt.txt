@@ -1,0 +1,297 @@
+# Final QA & Production Readiness Instructions
+
+You are now acting as a Senior AI Engineer, QA Engineer, and Production Reviewer.
+
+We have already spent an entire day building this AI lead generation and qualification system. **Do not redesign it, do not suggest new features, and do not expand the scope unless something is actually broken.**
+
+Your mission is to determine whether this system is truly production-ready.
+
+## Objectives
+
+1. Test every part of the workflow from start to finish.
+2. Verify every component works together correctly.
+3. Find bugs, edge cases, and logical failures.
+4. Fix only what is necessary.
+5. Continue testing until the entire pipeline is reliable.
+
+Do **not** generate new lead lists just to test the system unless they are absolutely required for validation.
+
+---
+
+## Validation Checklist
+
+Verify all of the following:
+
+* Data collection
+* Filtering
+* Lead qualification
+* Duplicate detection
+* Contact extraction
+* AI scoring
+* Output generation
+* Error handling
+* Retry mechanisms
+* Logging
+* Performance
+* Rate limits
+* Recovery from failures
+
+Assume this will run unattended in production.
+
+If something can fail tomorrow, fix it today.
+
+---
+
+## Production Reliability
+
+The next time I execute this project, it should work with minimal manual intervention.
+
+Identify anything that would require me to babysit the process.
+
+Remove unnecessary manual steps wherever possible.
+
+The workflow should be:
+
+Input → Run → Complete → Final Results
+
+No debugging during normal execution.
+
+---
+
+## Lead Quality Requirements
+
+This is extremely important.
+
+Do not accept low-quality leads.
+
+The system should prioritize businesses that are genuinely likely to purchase an AI Voice Receptionist.
+
+Examples include:
+
+* Dental clinics
+* Medical practices
+* Chiropractic clinics
+* Law firms
+* HVAC companies
+* Plumbing companies
+* Roofing companies
+* Home service businesses
+* Med spas
+* Veterinary clinics
+* Salons
+* Auto repair shops
+* Property management companies
+
+Prioritize businesses that:
+
+* receive phone calls regularly
+* depend on appointment booking
+* lose revenue from missed calls
+* have enough revenue to afford automation
+* have real business operations
+
+---
+
+## Contact Quality
+
+Only return leads with strong contact information whenever possible.
+
+Prefer:
+
+* Owner
+* Founder
+* CEO
+* Practice Owner
+* Managing Director
+* Office Manager
+* Operations Manager
+
+Include verified contact details whenever available.
+
+Avoid:
+
+* dead businesses
+* permanently closed businesses
+* fake listings
+* duplicate companies
+* businesses with no usable contact path
+
+---
+
+## Duplicate Prevention
+
+The system must never return the same business more than once.
+
+Implement duplicate detection using combinations of:
+
+* business name
+* phone number
+* website
+* email
+* Google Maps ID (if available)
+* domain
+
+If a duplicate is detected, skip it automatically.
+
+---
+
+## Output Requirements
+
+I do **not** want dozens of output files.
+
+I want one clean final output.
+
+Keep temporary files only if they are absolutely necessary for execution.
+
+At completion, provide:
+
+1. Final leads file
+2. Final execution summary
+3. Error report (only if errors occurred)
+
+Nothing else.
+
+Remove unnecessary intermediate outputs.
+
+---
+
+## Final Report
+
+When all testing is complete, provide one concise report containing:
+
+* Overall production readiness (Pass/Fail)
+* Bugs found
+* Bugs fixed
+* Remaining issues (if any)
+* Reliability score (0–100)
+* Estimated unattended success rate
+* Performance observations
+* Recommended next steps (only if critical)
+
+Do not overwhelm me with excessive logs.
+
+Summarize clearly.
+
+---
+
+## Success Criteria
+
+The project is considered complete only when:
+
+* the workflow executes successfully from start to finish
+* no critical bugs remain
+* duplicate leads are prevented
+* lead quality is consistently high
+* outputs are clean and easy to understand
+* the system can be executed again with little or no manual effort
+
+Do not stop after one successful run.
+
+Continue testing until you are confident this system is production-ready.
+
+Think like a senior engineer preparing software for a paying client.
+
+Your goal is not to impress me with more code—it is to deliver a reliable, maintainable, production-ready system.
+# Additional Production Requirements
+
+## Automated Demo Customization
+
+The deployed demo is one of the most important deliverables.
+
+Every generated demo must be automatically customized for the specific business without requiring any manual edits from me.
+
+Customization should include, wherever applicable:
+
+* Business name
+* Business branding
+* Industry-specific wording
+* Services offered
+* Frequently asked questions
+* Appointment booking flow
+* Business hours
+* Contact information
+* Voice agent personality
+* Greeting message
+* Call scripts
+* Lead capture fields
+* Any other business-specific configuration
+
+The generated AI receptionist should feel like it was built specifically for that business, not a generic template.
+
+No placeholder text, dummy values, generic company names, or incomplete configurations should remain in the deployed demo.
+
+---
+
+## Deployment Validation
+
+Every generated deployment must be fully tested before being marked as complete.
+
+For each deployment verify:
+
+* The application builds successfully.
+* Deployment completes successfully.
+* The deployed URL is live.
+* All pages load correctly.
+* Voice agent functions correctly.
+* Business information is correctly displayed.
+* No broken links.
+* No missing assets.
+* No console errors.
+* No runtime errors.
+* APIs function correctly.
+* Environment variables are correctly configured.
+* The deployment is production-ready.
+
+If a deployment fails, automatically diagnose the issue, fix it, redeploy, and repeat until successful.
+
+Do not stop after the first failed deployment.
+
+---
+
+## Final Deliverables
+
+When execution is complete, I only want the following final outputs:
+
+1. Fully customized production-ready deployed demo(s).
+2. Working Vercel deployment URL(s).
+3. Final qualified lead file.
+4. Final execution summary.
+5. Error report (only if errors occurred).
+
+Do not leave unfinished deployments or partially configured demos.
+
+---
+
+## Autonomous Execution
+
+The entire workflow should be autonomous.
+
+I should not have to:
+
+* manually edit generated code
+* manually customize demos
+* manually change business information
+* manually fix deployments
+* manually rerun failed steps
+* manually configure environment variables
+* manually verify deployments
+
+The system should handle these tasks automatically whenever possible.
+
+---
+
+## Completion Criteria
+
+The project is NOT complete until all of the following are true:
+
+* The workflow completes successfully from start to finish.
+* High-quality leads are generated.
+* Duplicate leads are eliminated.
+* Every demo is fully customized for its respective business.
+* Every Vercel deployment is live and functioning correctly.
+* All business information is accurate.
+* The AI receptionist behaves correctly for that specific business.
+* No critical bugs remain.
+* Only the required final deliverables are produced.
+
+and make sure the output in leads folder every diff day should have diff folder with date mentioned each date own folder in that output saves

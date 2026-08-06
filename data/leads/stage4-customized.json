@@ -1,0 +1,29 @@
+{
+  "customized": [
+    {
+      "leadId": "austin-dental-center-pc-RJiV3HJU",
+      "businessName": "Austin Dental Center, PC",
+      "vertical": "dental clinic",
+      "configFile": "austin-dental-center-pc-RJiV3HJU.json"
+    },
+    {
+      "leadId": "manos-de-cristo-dental-center-d7mCcdKY",
+      "businessName": "Manos De Cristo Dental Center",
+      "vertical": "dental clinic",
+      "configFile": "manos-de-cristo-dental-center-d7mCcdKY.json"
+    },
+    {
+      "leadId": "east-austin-dental-UxzwnGek",
+      "businessName": "East Austin Dental",
+      "vertical": "dental clinic",
+      "configFile": "east-austin-dental-UxzwnGek.json"
+    },
+    {
+      "leadId": "the-dental-centre-W1iEBOoE",
+      "businessName": "The Dental Centre",
+      "vertical": "dental clinic",
+      "configFile": "the-dental-centre-W1iEBOoE.json"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Austin Dental Works",
+  "location": "Austin, TX",
+  "website": "https://www.austindentalworks.com/",
+  "phone": "(512) 877-9822",
+  "hours": "Closed · Opens 8 AM Mon",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "Austin Dental Works in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 4.9 stars from 626 Google reviews.",
+  "avatarLetter": "A",
+  "_pipeline": {
+    "leadId": "austin-dental-works-s0RVjV3Y",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T10:01:26.489Z",
+    "qualificationScore": 70,
+    "verifiedEmail": "info@austindentalworks.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 626,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

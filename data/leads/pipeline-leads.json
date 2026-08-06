@@ -1,0 +1,1788 @@
+{
+  "austin-emergency-dental-VrpwODY4": {
+    "id": "austin-emergency-dental-VrpwODY4",
+    "createdAt": "2026-07-18T10:00:52.054Z",
+    "stage": "deploy",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 70,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Austin Emergency Dental",
+    "placeId": "ChIJV_V-o8WzRIYRyWFVrpwODY4",
+    "address": "2500 W William Cannon Dr Ste 103 (Building #1, Austin, TX 78745",
+    "phone": "(737) 747-4646",
+    "website": "https://emergencydentalaustin.com/",
+    "rating": 4.9,
+    "reviewCount": 747,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 747,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJV_V-o8WzRIYRyWFVrpwODY4",
+    "hours": [
+      "Open · Closes 8 PM"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 747,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:23:37.830Z",
+    "scoreBreakdown": {
+      "reviewVolume": 10,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 15
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 70/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.074Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.454Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:10:39.943Z"
+      },
+      {
+        "from": "deploy",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:11:09.481Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:49.621Z"
+      },
+      {
+        "from": "outreach",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T12:56:47.990Z"
+      },
+      {
+        "from": "discovery",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:23:37.830Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Satisfaction at Austin Emergency Dental",
+    "outreachBody": "Hi Austin Emergency Dental team,\n\nI came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-jhercqtdm.vercel.app. Looking forward to connecting.",
+    "outreachRaw": "SUBJECT: Boost Patient Satisfaction at Austin Emergency Dental\n\nBODY: Hi Austin Emergency Dental team,\n\nI came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-jhercqtdm.vercel.app. Looking forward to connecting.",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review",
+    "dropStage": "scoring",
+    "dropReason": "Score 67/100 below 70 threshold"
+  },
+  "austin-dental-center-pc-RJiV3HJU": {
+    "id": "austin-dental-center-pc-RJiV3HJU",
+    "createdAt": "2026-07-18T10:00:52.266Z",
+    "stage": "outreach",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 72,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Austin Dental Center, PC",
+    "placeId": "ChIJ74saePXKRIYR6KfRJiV3HJU",
+    "address": "2304 Hancock Dr #1, Austin, TX 78756",
+    "phone": "(512) 233-6645",
+    "website": "https://www.smileaustin.com/",
+    "rating": 4.8,
+    "reviewCount": 151,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 151,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 40,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ74saePXKRIYR6KfRJiV3HJU",
+    "hours": [
+      "Closed · Opens 7 AM Mon"
+    ],
+    "stage1Score": 40,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 151,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:15:41.372Z",
+    "scoreBreakdown": {
+      "reviewVolume": 15,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 12
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 75/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.082Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.469Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:11:20.681Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:50.442Z"
+      },
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 72/100, above 70 threshold",
+        "timestamp": "2026-07-18T13:14:43.322Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T13:14:43.954Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:14:57.477Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T13:15:41.372Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Satisfaction at Austin Dental Center, PC",
+    "outreachBody": "Hi Austin Dental Center, PC team,\n\nWe came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-qef9pp1yo.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.",
+    "outreachRaw": "SUBJECT: Boost Patient Satisfaction at Austin Dental Center, PC\n\nBODY: Hi Austin Dental Center, PC team,\n\nWe came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-qef9pp1yo.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review"
+  },
+  "emergency-dentist-of-austin-dhSsCHHk": {
+    "id": "emergency-dentist-of-austin-dhSsCHHk",
+    "createdAt": "2026-07-18T10:00:52.475Z",
+    "stage": "deploy",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 70,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Emergency Dentist of Austin",
+    "placeId": "ChIJpXb4FgrJRIYRyRpdhSsCHHk",
+    "address": "1030 Norwood Park Blvd #324, Austin, TX 78753",
+    "phone": "(512) 961-6200",
+    "website": "https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+    "rating": 4.8,
+    "reviewCount": 1452,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1452,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpXb4FgrJRIYRyRpdhSsCHHk",
+    "hours": [
+      "Open · Closes 8 PM"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1452,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:35:29.984Z",
+    "scoreBreakdown": {
+      "reviewVolume": 10,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 15
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 70/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.090Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.484Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:11:32.637Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:51.240Z"
+      },
+      {
+        "from": "discovery",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:35:29.984Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Satisfaction with Automated Welcomes",
+    "outreachBody": "Hi Emergency Dentist of Austin team, \n\nWe've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-9188isv5x.vercel.app. Let me know if you have any questions.",
+    "outreachRaw": "SUBJECT: Boost Patient Satisfaction with Automated Welcomes\n\nBODY: Hi Emergency Dentist of Austin team, \n\nWe've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-9188isv5x.vercel.app. Let me know if you have any questions.",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review",
+    "dropStage": "scoring",
+    "dropReason": "Score 67/100 below 70 threshold"
+  },
+  "austin-primary-dental-TvQufW1o": {
+    "id": "austin-primary-dental-TvQufW1o",
+    "createdAt": "2026-07-18T10:00:52.692Z",
+    "stage": "discovery",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "businessName": "Austin Primary Dental",
+    "placeId": "ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "address": "6700 West Gate Blvd Ste 103, Austin, TX 78745",
+    "phone": "(512) 808-5651",
+    "website": "https://austinprimarydental.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+    "rating": 4.9,
+    "reviewCount": 365,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 365,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 365,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:13:55.063Z"
+  },
+  "austin-dental-works-s0RVjV3Y": {
+    "id": "austin-dental-works-s0RVjV3Y",
+    "createdAt": "2026-07-18T10:00:52.900Z",
+    "stage": "deploy",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 70,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Austin Dental Works",
+    "placeId": "ChIJZUcojGPKRIYRzcMs0RVjV3Y",
+    "address": "4601 N Lamar Blvd #503, Austin, TX 78751",
+    "phone": "(512) 877-9822",
+    "website": "https://www.austindentalworks.com/",
+    "rating": 4.9,
+    "reviewCount": 626,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 626,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZUcojGPKRIYRzcMs0RVjV3Y",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 626,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:36:00.236Z",
+    "scoreBreakdown": {
+      "reviewVolume": 10,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 15
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 70/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.098Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.500Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:11:43.628Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:52.058Z"
+      },
+      {
+        "from": "discovery",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:36:00.236Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Loyalty with AI-Powered Reception",
+    "outreachBody": "Hi Austin Dental Works team,\n\nI came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-31n83th5b-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.\n\nBest regards, [Your Name]",
+    "outreachRaw": "SUBJECT: Boost Patient Loyalty with AI-Powered Reception\n\nBODY: Hi Austin Dental Works team,\n\nI came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-31n83th5b-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.\n\nBest regards, [Your Name]",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review",
+    "dropStage": "scoring",
+    "dropReason": "Score 67/100 below 70 threshold"
+  },
+  "austin-city-dental-4pGMKusA": {
+    "id": "austin-city-dental-4pGMKusA",
+    "createdAt": "2026-07-18T10:00:53.122Z",
+    "stage": "deploy",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 70,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Austin City Dental",
+    "placeId": "ChIJBy72toXKRIYRhRa4pGMKusA",
+    "address": "1500 W 38th St #37, Austin, TX 78731",
+    "phone": "(512) 451-8256",
+    "website": "http://www.austincitydental.com/",
+    "rating": 5,
+    "reviewCount": 656,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 656,
+      "rating": 5,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBy72toXKRIYRhRa4pGMKusA",
+    "hours": [
+      "Closed · Opens 7:30 AM Mon"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 656,
+      "rating": 5,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:35:45.224Z",
+    "scoreBreakdown": {
+      "reviewVolume": 10,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 15
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 70/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.105Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.515Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:11:54.654Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:53.130Z"
+      },
+      {
+        "from": "discovery",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:35:45.224Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Streamline Patient Onboarding at Austin City Dental",
+    "outreachBody": "Hi Austin City Dental team, \n\nWe came across your market research on improving customer experience and were impressed by your commitment to delivering exceptional patient care. Our AI receptionist product can help with that. By automating routine tasks and providing personalized support, you can free up staff to focus on what matters most – patient relationships. Take a look at our demo to see how it works: [demo link]. Would love to discuss how it can benefit your practice. Best, [Your Name]",
+    "outreachRaw": "SUBJECT: Streamline Patient Onboarding at Austin City Dental\n\nBODY: Hi Austin City Dental team, \n\nWe came across your market research on improving customer experience and were impressed by your commitment to delivering exceptional patient care. Our AI receptionist product can help with that. By automating routine tasks and providing personalized support, you can free up staff to focus on what matters most – patient relationships. Take a look at our demo to see how it works: [demo link]. Would love to discuss how it can benefit your practice. Best, [Your Name]",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review",
+    "dropStage": "scoring",
+    "dropReason": "Score 67/100 below 70 threshold"
+  },
+  "mydental-at-tech-ridge-oVqGeGa0": {
+    "id": "mydental-at-tech-ridge-oVqGeGa0",
+    "createdAt": "2026-07-18T10:00:53.333Z",
+    "stage": "deploy",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 70,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "myDental at Tech Ridge",
+    "placeId": "ChIJofuRUsfORIYRJcKoVqGeGa0",
+    "address": "13000 N Interstate Hwy 35 Ste 206, Austin, TX 78753",
+    "phone": "(512) 815-2524",
+    "website": "https://www.mydental.com/locations/tech-ridge/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "rating": 4.8,
+    "reviewCount": 1487,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1487,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJofuRUsfORIYRJcKoVqGeGa0",
+    "hours": [
+      "Closed · Opens 9 AM"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1487,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:36:22.093Z",
+    "scoreBreakdown": {
+      "reviewVolume": 10,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 15
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 70/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.115Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.569Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:12:05.463Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:54.182Z"
+      },
+      {
+        "from": "outreach",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:36:22.093Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Satisfaction at myDental at Tech Ridge",
+    "outreachBody": "Hi [Recipient's Name], \n\nWe've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-lv1fazf4r.vercel.app.",
+    "outreachRaw": "SUBJECT: Boost Patient Satisfaction at myDental at Tech Ridge\n\nBODY: Hi [Recipient's Name], \n\nWe've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-lv1fazf4r.vercel.app.",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review"
+  },
+  "manos-de-cristo-dental-center-d7mCcdKY": {
+    "id": "manos-de-cristo-dental-center-d7mCcdKY",
+    "createdAt": "2026-07-18T10:00:53.570Z",
+    "stage": "outreach",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 77,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "Manos De Cristo Dental Center",
+    "placeId": "ChIJqbhkca61RIYRCZbd7mCcdKY",
+    "address": "4911 Harmon Ave, Austin, TX 78751",
+    "phone": "(512) 477-2319",
+    "website": "http://www.manosdecristo.org/",
+    "rating": 3.2,
+    "reviewCount": 46,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 46,
+      "rating": 3.2,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 50,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqbhkca61RIYRCZbd7mCcdKY",
+    "hours": [
+      "Open · Closes 2 PM"
+    ],
+    "stage1Score": 50,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 46,
+      "rating": 3.2,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:15:42.277Z",
+    "scoreBreakdown": {
+      "reviewVolume": 20,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 12
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 80/100, above 70 threshold",
+        "timestamp": "2026-07-18T10:01:26.126Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T10:01:26.583Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T10:12:16.919Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T10:12:55.021Z"
+      },
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 77/100, above 70 threshold",
+        "timestamp": "2026-07-18T13:14:43.354Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T13:14:43.968Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:15:14.672Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T13:15:42.277Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost First Impressions at Manos De Cristo Dental Center",
+    "outreachBody": "Hi Maria, \n\nI came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-htw7tnnme.vercel.app. Would you be open to a quick walkthrough?",
+    "outreachRaw": "SUBJECT: Boost First Impressions at Manos De Cristo Dental Center\n\nBODY: Hi Maria, \n\nI came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-htw7tnnme.vercel.app. Would you be open to a quick walkthrough?",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review"
+  },
+  "east-austin-dental-UxzwnGek": {
+    "id": "east-austin-dental-UxzwnGek",
+    "createdAt": "2026-07-18T10:00:53.823Z",
+    "stage": "outreach",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 82,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "East Austin Dental",
+    "placeId": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+    "address": "Corazón, 1000 E 5th St. Ste 110, Austin, TX 78702",
+    "phone": "(512) 499-0067",
+    "website": "http://www.eastaustindental.com/",
+    "rating": 4.7,
+    "reviewCount": 91,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 91,
+      "rating": 4.7,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 40,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "stage1Score": 40,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 91,
+      "rating": 4.7,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:15:43.110Z",
+    "scoreBreakdown": {
+      "reviewVolume": 25,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 12
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 82/100, above 70 threshold",
+        "timestamp": "2026-07-18T13:14:43.441Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T13:14:43.981Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:15:25.892Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T13:15:43.110Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Enhance East Austin Dental's Patient Experience with AI",
+    "outreachBody": "Hi Dr. Nguyen, \n\nI came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-o4ltmiy5s-manaal6s-projects.vercel.app \n\nBest regards, [Your Name]",
+    "outreachRaw": "SUBJECT: Enhance East Austin Dental's Patient Experience with AI\n\nBODY: Hi Dr. Nguyen, \n\nI came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-o4ltmiy5s-manaal6s-projects.vercel.app \n\nBest regards, [Your Name]",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review"
+  },
+  "swish-dental-downtown-4IrRuTmQ": {
+    "id": "swish-dental-downtown-4IrRuTmQ",
+    "createdAt": "2026-07-18T10:00:54.040Z",
+    "stage": "discovery",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "businessName": "Swish Dental Downtown",
+    "placeId": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "address": "201 W 5th St Ste 175, Austin, TX 78701",
+    "phone": "(512) 713-1099",
+    "website": "https://www.swishsmiles.com/location/downtown",
+    "rating": 4.6,
+    "reviewCount": 932,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 932,
+      "rating": 4.6,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "hours": [
+      "Closed · Opens 9 AM Mon"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 932,
+      "rating": 4.6,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:13:56.153Z"
+  },
+  "ChIJV_V-o8WzRIYRyWFVrpwODY4": {
+    "id": "ChIJV_V-o8WzRIYRyWFVrpwODY4",
+    "createdAt": "2026-07-18T10:00:56.804Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "austin-emergency-dental-VrpwODY4",
+    "businessName": "Austin Emergency Dental",
+    "placeId": "ChIJV_V-o8WzRIYRyWFVrpwODY4",
+    "address": "2500 W William Cannon Dr Ste 103 (Building #1, Austin, TX 78745",
+    "phone": "(737) 747-4646",
+    "website": "https://emergencydentalaustin.com/",
+    "rating": 4.9,
+    "reviewCount": 747,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 747,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJV_V-o8WzRIYRyWFVrpwODY4",
+    "hours": [
+      "Open · Closes 8 PM"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "admin@emergencydentalaustin.com",
+    "verifiedPhone": "(737) 747-4646",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "admin@emergencydentalaustin.com",
+        "confidence": 70,
+        "type": "administrator"
+      },
+      {
+        "email": "AdminATX@ERdentist.io",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:13.013Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:00:56.807Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: admin@emergencydentalaustin.com",
+        "timestamp": "2026-07-18T13:14:13.013Z"
+      }
+    ]
+  },
+  "ChIJ74saePXKRIYR6KfRJiV3HJU": {
+    "id": "ChIJ74saePXKRIYR6KfRJiV3HJU",
+    "createdAt": "2026-07-18T10:01:00.052Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "austin-dental-center-pc-RJiV3HJU",
+    "businessName": "Austin Dental Center, PC",
+    "placeId": "ChIJ74saePXKRIYR6KfRJiV3HJU",
+    "address": "2304 Hancock Dr #1, Austin, TX 78756",
+    "phone": "(512) 233-6645",
+    "website": "https://www.smileaustin.com/",
+    "rating": 4.8,
+    "reviewCount": 151,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 151,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 40,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ74saePXKRIYR6KfRJiV3HJU",
+    "hours": [
+      "Closed · Opens 7 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "info@smileaustin.com",
+    "verifiedPhone": "(512) 233-6645",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "info@smileaustin.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:09.522Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:00.054Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: info@smileaustin.com",
+        "timestamp": "2026-07-18T13:14:09.522Z"
+      }
+    ]
+  },
+  "ChIJpXb4FgrJRIYRyRpdhSsCHHk": {
+    "id": "ChIJpXb4FgrJRIYRyRpdhSsCHHk",
+    "createdAt": "2026-07-18T10:01:03.473Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "emergency-dentist-of-austin-dhSsCHHk",
+    "businessName": "Emergency Dentist of Austin",
+    "placeId": "ChIJpXb4FgrJRIYRyRpdhSsCHHk",
+    "address": "1030 Norwood Park Blvd #324, Austin, TX 78753",
+    "phone": "(512) 961-6200",
+    "website": "https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+    "rating": 4.8,
+    "reviewCount": 1452,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1452,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpXb4FgrJRIYRyRpdhSsCHHk",
+    "hours": [
+      "Open · Closes 8 PM"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "info@emergencydentistofaustin.com",
+    "verifiedPhone": "(512) 961-6200",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "info@emergencydentistofaustin.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:01.164Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:03.475Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: info@emergencydentistofaustin.com",
+        "timestamp": "2026-07-18T13:14:01.164Z"
+      }
+    ]
+  },
+  "ChIJL9iLaGRLW4YRG9VTvQufW1o": {
+    "id": "ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "createdAt": "2026-07-18T10:01:05.831Z",
+    "stage": "enrichment",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "austin-primary-dental-TvQufW1o",
+    "businessName": "Austin Primary Dental",
+    "placeId": "ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "address": "6700 West Gate Blvd Ste 103, Austin, TX 78745",
+    "phone": "(512) 808-5651",
+    "website": "https://austinprimarydental.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+    "rating": 4.9,
+    "reviewCount": 365,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 365,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": null,
+    "verifiedPhone": "(512) 808-5651",
+    "emailConfidence": 0,
+    "emailStatus": null,
+    "enrichmentSource": null,
+    "emailPattern": null,
+    "possibleEmails": [],
+    "updatedAt": "2026-07-18T13:14:20.508Z",
+    "dropStage": "enrichment",
+    "dropReason": "No verified contact found"
+  },
+  "ChIJZUcojGPKRIYRzcMs0RVjV3Y": {
+    "id": "ChIJZUcojGPKRIYRzcMs0RVjV3Y",
+    "createdAt": "2026-07-18T10:01:08.735Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "austin-dental-works-s0RVjV3Y",
+    "businessName": "Austin Dental Works",
+    "placeId": "ChIJZUcojGPKRIYRzcMs0RVjV3Y",
+    "address": "4601 N Lamar Blvd #503, Austin, TX 78751",
+    "phone": "(512) 877-9822",
+    "website": "https://www.austindentalworks.com/",
+    "rating": 4.9,
+    "reviewCount": 626,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 626,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZUcojGPKRIYRzcMs0RVjV3Y",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "info@austindentalworks.com",
+    "verifiedPhone": "(512) 877-9822",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "info@austindentalworks.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:15.282Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:08.743Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: info@austindentalworks.com",
+        "timestamp": "2026-07-18T13:14:15.282Z"
+      }
+    ]
+  },
+  "ChIJBy72toXKRIYRhRa4pGMKusA": {
+    "id": "ChIJBy72toXKRIYRhRa4pGMKusA",
+    "createdAt": "2026-07-18T10:01:12.039Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "austin-city-dental-4pGMKusA",
+    "businessName": "Austin City Dental",
+    "placeId": "ChIJBy72toXKRIYRhRa4pGMKusA",
+    "address": "1500 W 38th St #37, Austin, TX 78731",
+    "phone": "(512) 451-8256",
+    "website": "http://www.austincitydental.com/",
+    "rating": 5,
+    "reviewCount": 656,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 656,
+      "rating": 5,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBy72toXKRIYRhRa4pGMKusA",
+    "hours": [
+      "Closed · Opens 7:30 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "info@austincitydental.com",
+    "verifiedPhone": "(512) 451-8256",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "info@austincitydental.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:31.997Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:12.043Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: info@austincitydental.com",
+        "timestamp": "2026-07-18T13:14:31.997Z"
+      }
+    ]
+  },
+  "ChIJofuRUsfORIYRJcKoVqGeGa0": {
+    "id": "ChIJofuRUsfORIYRJcKoVqGeGa0",
+    "createdAt": "2026-07-18T10:01:14.934Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "mydental-at-tech-ridge-oVqGeGa0",
+    "businessName": "myDental at Tech Ridge",
+    "placeId": "ChIJofuRUsfORIYRJcKoVqGeGa0",
+    "address": "13000 N Interstate Hwy 35 Ste 206, Austin, TX 78753",
+    "phone": "(512) 815-2524",
+    "website": "https://www.mydental.com/locations/tech-ridge/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "rating": 4.8,
+    "reviewCount": 1487,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1487,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJofuRUsfORIYRJcKoVqGeGa0",
+    "hours": [
+      "Closed · Opens 9 AM"
+    ],
+    "ownerName": "Jinal Patel",
+    "verifiedEmail": "jinal.patel@mydental.com",
+    "verifiedPhone": "(512) 815-2524",
+    "emailConfidence": 100,
+    "emailStatus": "valid",
+    "enrichmentSource": "hunter_verified",
+    "emailPattern": "{first}.{last}",
+    "possibleEmails": [
+      {
+        "email": "jinal.patel@mydental.com",
+        "confidence": 99,
+        "position": null,
+        "type": "personal"
+      },
+      {
+        "email": "sarath.srinivasan@mydental.com",
+        "confidence": 98,
+        "position": null,
+        "type": "personal"
+      },
+      {
+        "email": "atul.gulati@mydental.com",
+        "confidence": 97,
+        "position": null,
+        "type": "personal"
+      },
+      {
+        "email": "alex.lee@mydental.com",
+        "confidence": 96,
+        "position": null,
+        "type": "personal"
+      },
+      {
+        "email": "support@mydental.com",
+        "confidence": 95,
+        "position": null,
+        "type": "generic"
+      }
+    ],
+    "updatedAt": "2026-07-18T10:01:14.937Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:14.937Z"
+      }
+    ]
+  },
+  "ChIJqbhkca61RIYRCZbd7mCcdKY": {
+    "id": "ChIJqbhkca61RIYRCZbd7mCcdKY",
+    "createdAt": "2026-07-18T10:01:17.986Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "manos-de-cristo-dental-center-d7mCcdKY",
+    "businessName": "Manos De Cristo Dental Center",
+    "placeId": "ChIJqbhkca61RIYRCZbd7mCcdKY",
+    "address": "4911 Harmon Ave, Austin, TX 78751",
+    "phone": "(512) 477-2319",
+    "website": "http://www.manosdecristo.org/",
+    "rating": 3.2,
+    "reviewCount": 46,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 46,
+      "rating": 3.2,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 50,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqbhkca61RIYRCZbd7mCcdKY",
+    "hours": [
+      "Open · Closes 2 PM"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "jballesteros@manosdecristo.org",
+    "verifiedPhone": "(512) 477-2319",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": "{f}{last}",
+    "possibleEmails": [
+      {
+        "email": "jballesteros@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "dds@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "yruiz@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "jgardiner@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "cfloto@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "driehs@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "llombardi@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "khillhouse@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "kzamora@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "mgamez@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "mdc@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "dentalcenter@manosdecristo.org",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:28.387Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Contact verified via Hunter.io",
+        "timestamp": "2026-07-18T10:01:17.990Z"
+      },
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: jballesteros@manosdecristo.org",
+        "timestamp": "2026-07-18T13:14:28.387Z"
+      }
+    ]
+  },
+  "ChIJtZ6Dkq-1RIYRgNWUxzwnGek": {
+    "id": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+    "createdAt": "2026-07-18T10:01:20.312Z",
+    "stage": "enrichment",
+    "status": "dropped",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "east-austin-dental-UxzwnGek",
+    "businessName": "East Austin Dental",
+    "placeId": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+    "address": "Corazón, 1000 E 5th St. Ste 110, Austin, TX 78702",
+    "phone": "(512) 499-0067",
+    "website": "http://www.eastaustindental.com/",
+    "rating": 4.7,
+    "reviewCount": 91,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 91,
+      "rating": 4.7,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 40,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "eastaustindental@gmail.com",
+    "verifiedPhone": "(512) 499-0067",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "emailPattern": null,
+    "possibleEmails": [
+      {
+        "email": "eastaustindental@gmail.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:34.734Z",
+    "dropStage": "enrichment",
+    "dropReason": "No verified contact found",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: eastaustindental@gmail.com",
+        "timestamp": "2026-07-18T13:14:34.734Z"
+      }
+    ]
+  },
+  "ChIJdWgENLS1RIYReos4IrRuTmQ": {
+    "id": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "createdAt": "2026-07-18T10:01:23.755Z",
+    "stage": "enrichment",
+    "status": "dropped",
+    "contactVerified": false,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "swish-dental-downtown-4IrRuTmQ",
+    "businessName": "Swish Dental Downtown",
+    "placeId": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "address": "201 W 5th St Ste 175, Austin, TX 78701",
+    "phone": "(512) 713-1099",
+    "website": "https://www.swishsmiles.com/location/downtown",
+    "rating": 4.6,
+    "reviewCount": 932,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 932,
+      "rating": 4.6,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "hours": [
+      "Closed · Opens 9 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": null,
+    "verifiedPhone": "(512) 713-1099",
+    "emailConfidence": 0,
+    "emailStatus": null,
+    "enrichmentSource": null,
+    "emailPattern": null,
+    "possibleEmails": [],
+    "updatedAt": "2026-07-18T13:14:42.236Z",
+    "dropStage": "enrichment",
+    "dropReason": "No verified contact found"
+  },
+  "the-dental-centre-W1iEBOoE": {
+    "id": "the-dental-centre-W1iEBOoE",
+    "createdAt": "2026-07-18T13:13:55.923Z",
+    "stage": "outreach",
+    "status": "active",
+    "contactVerified": false,
+    "qualificationScore": 72,
+    "demoUrl": null,
+    "outreachGenerated": true,
+    "businessName": "The Dental Centre",
+    "placeId": "ChIJuzq2ZpdLW4YRiJYW1iEBOoE",
+    "address": "4301 W William Cannon Dr # 240, Austin, TX 78749",
+    "phone": "(512) 892-7800",
+    "website": "https://www.dentalcentreaustin.com/",
+    "rating": 4.8,
+    "reviewCount": 294,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 294,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuzq2ZpdLW4YRiJYW1iEBOoE",
+    "hours": [
+      "Closed · Opens 9 AM Mon"
+    ],
+    "stage1Score": 35,
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 294,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "updatedAt": "2026-07-18T13:15:43.922Z",
+    "scoreBreakdown": {
+      "reviewVolume": 15,
+      "bookingPresence": 25,
+      "phoneComplaints": 0,
+      "businessSize": 15,
+      "vertical": 5,
+      "emailConfidence": 12
+    },
+    "stageHistory": [
+      {
+        "from": "scoring",
+        "to": "scoring",
+        "reason": "Scored 72/100, above 70 threshold",
+        "timestamp": "2026-07-18T13:14:43.452Z"
+      },
+      {
+        "from": "demo",
+        "to": "demo",
+        "reason": "Demo config generated (dental clinic)",
+        "timestamp": "2026-07-18T13:14:43.995Z"
+      },
+      {
+        "from": "demo",
+        "to": "deploy",
+        "reason": "Demo deployed to vercel",
+        "timestamp": "2026-07-18T13:15:37.367Z"
+      },
+      {
+        "from": "outreach",
+        "to": "outreach",
+        "reason": "Outreach email generated",
+        "timestamp": "2026-07-18T13:15:43.922Z"
+      }
+    ],
+    "demoGenerated": true,
+    "demoVertical": "dental clinic",
+    "outreachSubject": "Boost Patient Satisfaction at The Dental Centre with AI-Powered Support",
+    "outreachBody": "Hi [Receptionist's Name],\n\nWe've been researching ways to improve customer experience in the dental industry, and it's clear that The Dental Centre is committed to delivering top-notch care. That's why we'd like to introduce you to our AI receptionist product, designed to help streamline communication and enhance the patient experience.\n\nTake a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-n447yyvzo-manaal6s-projects.vercel.app\n\nLooking forward to hearing your thoughts.\n\nBest regards, [Your Name]",
+    "outreachRaw": "SUBJECT: Boost Patient Satisfaction at The Dental Centre with AI-Powered Support\n\nBODY:\nHi [Receptionist's Name],\n\nWe've been researching ways to improve customer experience in the dental industry, and it's clear that The Dental Centre is committed to delivering top-notch care. That's why we'd like to introduce you to our AI receptionist product, designed to help streamline communication and enhance the patient experience.\n\nTake a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-n447yyvzo-manaal6s-projects.vercel.app\n\nLooking forward to hearing your thoughts.\n\nBest regards, [Your Name]",
+    "outreachPainSignal": {
+      "type": "general",
+      "text": "Looking for ways to improve customer experience",
+      "source": "market research",
+      "summary": "customer experience optimization"
+    },
+    "outreachStatus": "needs_review"
+  },
+  "ChIJuzq2ZpdLW4YRiJYW1iEBOoE": {
+    "id": "ChIJuzq2ZpdLW4YRiJYW1iEBOoE",
+    "createdAt": "2026-07-18T13:14:37.754Z",
+    "stage": "enrichment",
+    "status": "active",
+    "contactVerified": true,
+    "qualificationScore": 0,
+    "demoUrl": null,
+    "outreachGenerated": false,
+    "leadId": "the-dental-centre-W1iEBOoE",
+    "businessName": "The Dental Centre",
+    "placeId": "ChIJuzq2ZpdLW4YRiJYW1iEBOoE",
+    "address": "4301 W William Cannon Dr # 240, Austin, TX 78749",
+    "phone": "(512) 892-7800",
+    "website": "https://www.dentalcentreaustin.com/",
+    "rating": 4.8,
+    "reviewCount": 294,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 294,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuzq2ZpdLW4YRiJYW1iEBOoE",
+    "hours": [
+      "Closed · Opens 9 AM Mon"
+    ],
+    "ownerName": null,
+    "verifiedEmail": "care@dentalcentreaustin.com",
+    "verifiedPhone": "(512) 892-7800",
+    "emailConfidence": 85,
+    "emailStatus": "valid",
+    "enrichmentSource": "website_scrape_mx_verified",
+    "possibleEmails": [
+      {
+        "email": "care@dentalcentreaustin.com",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "aparnam@growthplug.com",
+        "confidence": 70,
+        "type": "general"
+      },
+      {
+        "email": "jackfandds@gmail.com",
+        "confidence": 70,
+        "type": "general"
+      }
+    ],
+    "updatedAt": "2026-07-18T13:14:37.758Z",
+    "stageHistory": [
+      {
+        "from": "enrichment",
+        "to": "enrichment",
+        "reason": "Email verified: care@dentalcentreaustin.com",
+        "timestamp": "2026-07-18T13:14:37.758Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Manos De Cristo Dental Center",
+  "location": "Austin, TX",
+  "website": "http://www.manosdecristo.org/",
+  "phone": "(512) 477-2319",
+  "hours": "Open · Closes 2 PM",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "Manos De Cristo Dental Center in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 3.2 stars from 46 Google reviews.",
+  "avatarLetter": "M",
+  "_pipeline": {
+    "leadId": "manos-de-cristo-dental-center-d7mCcdKY",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T13:14:43.957Z",
+    "qualificationScore": 77,
+    "verifiedEmail": "jballesteros@manosdecristo.org",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 46,
+      "rating": 3.2,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

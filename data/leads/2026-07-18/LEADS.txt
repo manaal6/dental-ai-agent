@@ -1,0 +1,109 @@
+LEAD CONTACTS
+══════════════════════════════════════════════════════════════════════
+
+East Austin Dental
+  Phone:    (512) 499-0067
+  Email:    eastaustindental@gmail.com
+  Owner:    N/A
+  Website:  http://www.eastaustindental.com/
+  Address:  Corazón, 1000 E 5th St. Ste 110, Austin, TX 78702
+  Score:    82/100
+  Demo:     https://demo-east-austin-dental-uxzwngek-o4ltmiy5s-manaal6s-projects.vercel.app
+  Status:   DEPLOYED
+
+Manos De Cristo Dental Center
+  Phone:    (512) 477-2319
+  Email:    jballesteros@manosdecristo.org
+  Owner:    N/A
+  Website:  http://www.manosdecristo.org/
+  Address:  4911 Harmon Ave, Austin, TX 78751
+  Score:    77/100
+  Demo:     https://demo-manos-de-cristo-dental-center-d7mccdky-htw7tnnme.vercel.app
+  Status:   DEPLOYED
+
+Austin Dental Center, PC
+  Phone:    (512) 233-6645
+  Email:    info@smileaustin.com
+  Owner:    N/A
+  Website:  https://www.smileaustin.com/
+  Address:  2304 Hancock Dr #1, Austin, TX 78756
+  Score:    72/100
+  Demo:     https://demo-austin-dental-center-pc-rjiv3hju-qef9pp1yo.vercel.app
+  Status:   DEPLOYED
+
+The Dental Centre
+  Phone:    (512) 892-7800
+  Email:    care@dentalcentreaustin.com
+  Owner:    N/A
+  Website:  https://www.dentalcentreaustin.com/
+  Address:  4301 W William Cannon Dr # 240, Austin, TX 78749
+  Score:    72/100
+  Demo:     https://demo-the-dental-centre-w1iebooe-n447yyvzo-manaal6s-projects.vercel.app
+  Status:   DEPLOYED
+
+Austin Emergency Dental
+  Phone:    (737) 747-4646
+  Email:    admin@emergencydentalaustin.com
+  Owner:    N/A
+  Website:  https://emergencydentalaustin.com/
+  Address:  2500 W William Cannon Dr Ste 103 (Building #1, Austin, TX 78745
+  Score:    70/100
+  Demo:     https://demo-austin-emergency-dental-vrpwody4-jhercqtdm.vercel.app
+  Status:   DEPLOYED
+
+Emergency Dentist of Austin
+  Phone:    (512) 961-6200
+  Email:    info@emergencydentistofaustin.com
+  Owner:    N/A
+  Website:  https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing
+  Address:  1030 Norwood Park Blvd #324, Austin, TX 78753
+  Score:    70/100
+  Demo:     https://demo-emergency-dentist-of-austin-dhsschhk-9188isv5x.vercel.app
+  Status:   DEPLOYED
+
+Austin Dental Works
+  Phone:    (512) 877-9822
+  Email:    info@austindentalworks.com
+  Owner:    N/A
+  Website:  https://www.austindentalworks.com/
+  Address:  4601 N Lamar Blvd #503, Austin, TX 78751
+  Score:    70/100
+  Demo:     https://demo-austin-dental-works-s0rvjv3y-31n83th5b-manaal6s-projects.vercel.app
+  Status:   DEPLOYED
+
+myDental at Tech Ridge
+  Phone:    (512) 815-2524
+  Email:    N/A
+  Owner:    N/A
+  Website:  https://www.mydental.com/locations/tech-ridge/?utm_source=google&utm_medium=organic&utm_campaign=gbp
+  Address:  13000 N Interstate Hwy 35 Ste 206, Austin, TX 78753
+  Score:    70/100
+  Demo:     https://demo-mydental-at-tech-ridge-ovqgega0-6m30ya63d.vercel.app
+  Status:   DEPLOYED
+
+Austin City Dental
+  Phone:    (512) 451-8256
+  Email:    info@austincitydental.com
+  Owner:    N/A
+  Website:  http://www.austincitydental.com/
+  Address:  1500 W 38th St #37, Austin, TX 78731
+  Score:    70/100
+  Status:   EMAILED
+
+Austin Primary Dental
+  Phone:    (512) 808-5651
+  Email:    N/A
+  Owner:    N/A
+  Website:  https://austinprimarydental.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website
+  Address:  6700 West Gate Blvd Ste 103, Austin, TX 78745
+  Score:    0/100
+  Status:   NEEDS EMAIL
+
+Swish Dental Downtown
+  Phone:    (512) 713-1099
+  Email:    N/A
+  Owner:    N/A
+  Website:  https://www.swishsmiles.com/location/downtown
+  Address:  201 W 5th St Ste 175, Austin, TX 78701
+  Score:    0/100
+  Status:   NEEDS EMAIL

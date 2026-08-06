@@ -1,0 +1,109 @@
+PROJECT: AI Receptionist Agency — Automated Lead-to-Demo-to-Outreach Pipeline
+
+CONTEXT
+I have a working AI receptionist product (voice agent for local service businesses —
+dental, HVAC, med spas, salons). It needs light customization per lead (business name,
+services, hours, greeting script) before I demo it. My current bottleneck: manual lead
+research means I waste hours building demos for businesses whose owner I can never
+actually reach.
+
+GOAL
+Build a multi-stage agent pipeline in this repo that runs end-to-end:
+1. LEAD DISCOVERY — find local service businesses that are strong buying candidates
+2. ENRICHMENT — get verified owner/decision-maker name + contact info (email/phone) for
+   each qualified lead — this is the step that must not fail silently. A lead without a
+   real contact is worthless; the agent should discard it, not pass it downstream.
+3. QUALIFICATION SCORING — rank leads by conversion likelihood
+4. DEMO CUSTOMIZATION — take my existing product template and auto-generate a
+   business-specific instance (name, industry vertical, services list, hours, sample
+   greeting/call flow)
+5. DEPLOYMENT — push the customized instance to a new git repo/branch and deploy it
+   to Render automatically, return a live URL
+6. OUTREACH GENERATION — write a short, personalized cold email/DM referencing the
+   specific business and a link to their live custom demo
+7. OUTPUT — a clean CSV/dashboard row per lead: business name, owner name, contact,
+   qualification score, demo URL, outreach message, status
+
+STAGE 1 — LEAD DISCOVERY
+- Use Google Places API (not scraping) to search a target vertical + location
+  (e.g. "dental clinics in Austin TX").
+- Filter for signals of weak current phone/booking infrastructure: no website OR
+  outdated website (check via basic fetch — no scheduling widget, no chatbot),
+  low review-response rate, business hours listed but no online booking link,
+  review count > 20 (proof of real call volume) but rating complaints mentioning
+  "hard to reach," "no one answered," "phone tag," "voicemail."
+- Output: business name, address, phone, Google Place ID, website URL, review signals.
+
+STAGE 2 — ENRICHMENT (the critical bottleneck to solve)
+- For each qualified lead, resolve an actual decision-maker contact using LEGITIMATE
+  enrichment APIs, in this priority order:
+    a) Hunter.io or Apollo.io API — domain search + email pattern finder using the
+       business's website domain
+    b) Google Places API "owner responses" field / business profile for named contacts
+    c) State business registry / Secretary of State LLC filings (public record,
+       free, often has registered agent/owner name) — many states expose this via
+       public API or downloadable CSV
+    d) As a fallback: a manual review queue — if no verified contact is found,
+       DO NOT auto-generate a demo for that lead. Flag it for manual follow-up
+       (e.g. calling the front desk to ask "who handles marketing/ops decisions?").
+- Never fabricate or guess an email address pattern without verification (Hunter.io/
+  Apollo both provide deliverability confidence scores — only pass leads above a
+  confidence threshold, e.g. 80%+).
+- This stage must produce a hard boolean: CONTACT_VERIFIED true/false. Only
+  true leads proceed to Stage 4 (demo customization) — this is what protects
+  my time from Stage 1 above.
+
+STAGE 3 — QUALIFICATION SCORING
+- Score 0-100 based on: review volume (call volume proxy), absence of online booking,
+  review complaints about phone/reachability, business size signals (single location
+  vs multi-location — prefer single, faster decision cycle), industry vertical
+  (weight dental/med spa/HVAC higher per current market data).
+- Only pass leads scoring above a configurable threshold (default 70) AND
+  CONTACT_VERIFIED = true to Stage 4.
+
+STAGE 4 — DEMO CUSTOMIZATION
+- Take /template (my existing product) and generate a per-lead config file
+  (business name, vertical-specific greeting script, services list pulled from
+  their Google Places listing, hours).
+- Auto-fill only structured fields — do not attempt to auto-write the full voice
+  script; use my existing vertical-specific templates (dental template, HVAC
+  template, etc.) and just parameter-substitute.
+
+STAGE 5 — DEPLOYMENT
+- Programmatically: create a new git branch/repo per lead (naming convention:
+  demo-[business-slug]), commit the customized config, push, and trigger a
+  Render deploy via Render's API. Poll deploy status. Return the live URL only
+  once deploy succeeds — do not pass a broken URL downstream.
+- Store demo URLs in a persistent local DB/CSV so I never redeploy a lead twice.
+
+STAGE 6 — OUTREACH MESSAGE
+- Generate a short (under 100 words) email referencing: the specific business
+  name, one specific pain signal found in Stage 1 (e.g. "noticed a few reviews
+  mention it's hard to get someone on the phone"), and the live demo link.
+- No generic template language — must pull the real signal found for that lead.
+- Output subject line + body, ready to paste into my sending tool (not auto-sent —
+  I want to review before send).
+
+STAGE 7 — OUTPUT
+- Single CSV/dashboard: business | owner name | verified contact | score |
+  demo URL | outreach draft | status (needs_review / ready_to_send / sent)
+
+BUILD REQUIREMENTS
+- Build this as separate, testable scripts/modules per stage, not one monolith —
+  I want to be able to run Stage 2 alone to debug enrichment before touching
+  deployment.
+- Add a dry-run mode for Stages 4-5 (generate config, skip actual git push/deploy)
+  so I can test on 3-5 leads before running at scale.
+- Rate-limit all API calls to respect provider limits (Google Places, Hunter/Apollo,
+  Render).
+- Log every lead's pipeline status and failure reason at each stage — I need to see
+  WHY a lead got dropped, not just that it did.
+- Ask me before you assume which enrichment API I have keys for — check what's
+  available in my environment/.env first rather than picking one.
+
+START HERE
+1. Ask me which vertical + city to target first, and confirm which enrichment
+   API (Hunter.io / Apollo.io / other) I already have a key for.
+2. Propose the folder structure and pipeline architecture before writing code.
+3. Build Stage 1 + Stage 2 first and let me validate real output on ~10 leads
+   before building Stages 3-6.

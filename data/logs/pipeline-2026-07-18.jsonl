@@ -1,0 +1,812 @@
+{"timestamp":"2026-07-18T09:41:15.203Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:52:12.604Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:52:12.917Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: google)"}
+{"timestamp":"2026-07-18T09:53:13.966Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:53:14.185Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T09:53:14.189Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T09:53:15.351Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T09:53:15.353Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:53:15.355Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:53:15.567Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:53:15.568Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:53:15.781Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:53:15.782Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1451 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:53:15.983Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T09:53:15.985Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:53:16.197Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:53:16.198Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:53:16.403Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 5 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T09:53:16.412Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T09:53:16.471Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T09:53:16.703Z","leadId":null,"stage":"enrichment","status":"info","message":"Using Snov.io (FREE: 50 credits/month)"}
+{"timestamp":"2026-07-18T09:53:16.708Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment"}
+{"timestamp":"2026-07-18T09:53:16.710Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 5 leads from Stage 1"}
+{"timestamp":"2026-07-18T09:53:16.711Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Searching snovio for domain: emergencydentalaustin.com"}
+{"timestamp":"2026-07-18T09:53:18.025Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"error","message":"snovio API error: Snov.io auth failed: 404"}
+{"timestamp":"2026-07-18T09:53:18.026Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:53:20.038Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Searching snovio for domain: smileaustin.com"}
+{"timestamp":"2026-07-18T09:53:20.269Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"error","message":"snovio API error: Snov.io auth failed: 404"}
+{"timestamp":"2026-07-18T09:53:20.270Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:53:22.274Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Searching snovio for domain: emergencydentistofaustin.com"}
+{"timestamp":"2026-07-18T09:53:22.703Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"error","message":"snovio API error: Snov.io auth failed: 404"}
+{"timestamp":"2026-07-18T09:53:22.704Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:53:24.708Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Searching snovio for domain: austinprimarydental.com"}
+{"timestamp":"2026-07-18T09:53:24.952Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"error","message":"snovio API error: Snov.io auth failed: 404"}
+{"timestamp":"2026-07-18T09:53:24.952Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:53:26.959Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Searching snovio for domain: austindentalworks.com"}
+{"timestamp":"2026-07-18T09:53:28.024Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"error","message":"snovio API error: Snov.io auth failed: 404"}
+{"timestamp":"2026-07-18T09:53:28.025Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:53:30.028Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 0 verified, 5 unverified, 0 errors"}
+{"timestamp":"2026-07-18T09:53:30.031Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T09:55:28.949Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:55:29.167Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T09:55:29.171Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T09:55:29.919Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T09:55:29.921Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:55:29.922Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:55:30.128Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:55:30.129Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:55:30.338Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:55:30.338Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1451 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:55:30.539Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T09:55:30.540Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:55:30.745Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:55:30.746Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:55:30.953Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 5 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T09:55:30.955Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T09:55:30.977Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T09:55:31.162Z","leadId":null,"stage":"enrichment","status":"info","message":"Using Hunter.io (FREE: 25 searches/month)"}
+{"timestamp":"2026-07-18T09:55:31.173Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment"}
+{"timestamp":"2026-07-18T09:55:31.175Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 5 leads from Stage 1"}
+{"timestamp":"2026-07-18T09:55:31.176Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentalaustin.com"}
+{"timestamp":"2026-07-18T09:55:32.469Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:55:32.470Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:55:34.481Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Searching hunter for domain: smileaustin.com"}
+{"timestamp":"2026-07-18T09:55:34.966Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:55:34.967Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:55:36.978Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentistofaustin.com"}
+{"timestamp":"2026-07-18T09:55:37.701Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:55:37.702Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:55:39.704Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Searching hunter for domain: austinprimarydental.com"}
+{"timestamp":"2026-07-18T09:55:40.085Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:55:40.086Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:55:42.097Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Searching hunter for domain: austindentalworks.com"}
+{"timestamp":"2026-07-18T09:55:43.260Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:55:43.261Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:55:45.269Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 0 verified, 5 unverified, 0 errors"}
+{"timestamp":"2026-07-18T09:55:45.276Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T09:56:49.777Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:56:50.044Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T09:56:50.048Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T09:56:50.235Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T09:56:50.236Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:56:50.238Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:56:50.453Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:56:50.454Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:56:50.659Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:56:50.660Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1451 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:56:50.872Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T09:56:50.878Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:56:51.085Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:56:51.085Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:56:51.293Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 5 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T09:56:51.295Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T09:56:51.317Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T09:56:51.492Z","leadId":null,"stage":"enrichment","status":"info","message":"Using Hunter.io (FREE: 25 searches/month)"}
+{"timestamp":"2026-07-18T09:56:51.496Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment"}
+{"timestamp":"2026-07-18T09:56:51.498Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 5 leads from Stage 1"}
+{"timestamp":"2026-07-18T09:56:51.502Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentalaustin.com"}
+{"timestamp":"2026-07-18T09:56:52.996Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Verifying best candidate: admin@emergencydentalaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:56:53.807Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"pass","message":"✅ Verified: admin@emergencydentalaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:56:55.815Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Searching hunter for domain: smileaustin.com"}
+{"timestamp":"2026-07-18T09:56:56.239Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Verifying best candidate: info@smileaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:56:57.096Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"pass","message":"✅ Verified: info@smileaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:56:59.106Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentistofaustin.com"}
+{"timestamp":"2026-07-18T09:56:59.462Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Verifying best candidate: info@emergencydentistofaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:57:00.492Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"pass","message":"✅ Verified: info@emergencydentistofaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:57:02.497Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Searching hunter for domain: austinprimarydental.com"}
+{"timestamp":"2026-07-18T09:57:02.962Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:57:02.964Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:57:04.977Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Searching hunter for domain: austindentalworks.com"}
+{"timestamp":"2026-07-18T09:57:05.335Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Verifying best candidate: info@austindentalworks.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:57:05.956Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"pass","message":"✅ Verified: info@austindentalworks.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:57:07.969Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 4 verified, 1 unverified, 0 errors"}
+{"timestamp":"2026-07-18T09:57:07.978Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T09:57:56.772Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T09:57:56.962Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T09:57:56.967Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T09:57:57.179Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T09:57:57.181Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:57:57.183Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:57.387Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:57:57.388Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:57.596Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:57:57.597Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1451 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:57.800Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T09:57:57.801Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:58.010Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:57:58.010Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:58.226Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"info","message":"Processing: Austin City Dental"}
+{"timestamp":"2026-07-18T09:57:58.227Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 656 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:58.432Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"discovery","status":"info","message":"Processing: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T09:57:58.433Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1487 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:58.641Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"info","message":"Processing: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T09:57:58.642Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"pass","message":"Score 50/100 | Reviews: 46 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:58.847Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"info","message":"Processing: East Austin Dental"}
+{"timestamp":"2026-07-18T09:57:58.848Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 91 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:59.057Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"info","message":"Processing: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T09:57:59.057Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 932 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:59.258Z","leadId":"the-dental-centre-W1iEBOoE","stage":"discovery","status":"info","message":"Processing: The Dental Centre"}
+{"timestamp":"2026-07-18T09:57:59.259Z","leadId":"the-dental-centre-W1iEBOoE","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 294 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:59.463Z","leadId":"the-local-dentist-YkpYKT5M","stage":"discovery","status":"info","message":"Processing: The Local Dentist"}
+{"timestamp":"2026-07-18T09:57:59.464Z","leadId":"the-local-dentist-YkpYKT5M","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 153 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:59.671Z","leadId":"the-tooth-inc-pAQTgf-c","stage":"discovery","status":"info","message":"Processing: The Tooth Inc"}
+{"timestamp":"2026-07-18T09:57:59.673Z","leadId":"the-tooth-inc-pAQTgf-c","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 578 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:57:59.877Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"discovery","status":"info","message":"Processing: Dentist in Austin."}
+{"timestamp":"2026-07-18T09:57:59.878Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"discovery","status":"pass","message":"Score 45/100 | Reviews: 343 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:00.087Z","leadId":"north-austin-dentistry-qLP46DcY","stage":"discovery","status":"info","message":"Processing: North Austin Dentistry"}
+{"timestamp":"2026-07-18T09:58:00.088Z","leadId":"north-austin-dentistry-qLP46DcY","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 702 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:00.290Z","leadId":"river-rock-dental-austin-mueller-W2x8zOdM","stage":"discovery","status":"info","message":"Processing: River Rock Dental Austin - Mueller"}
+{"timestamp":"2026-07-18T09:58:00.291Z","leadId":"river-rock-dental-austin-mueller-W2x8zOdM","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:00.503Z","leadId":"atx-family-dental-taUcdJGs","stage":"discovery","status":"info","message":"Processing: ATX Family Dental"}
+{"timestamp":"2026-07-18T09:58:00.504Z","leadId":"atx-family-dental-taUcdJGs","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 867 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:00.709Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"discovery","status":"info","message":"Processing: Austin Dental Specialty Group"}
+{"timestamp":"2026-07-18T09:58:00.710Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 232 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:00.918Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"discovery","status":"info","message":"Processing: Choice Austin Dental"}
+{"timestamp":"2026-07-18T09:58:00.919Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 426 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:01.124Z","leadId":"shoal-creek-dental-care-005DFcfE","stage":"discovery","status":"info","message":"Processing: Shoal Creek Dental Care"}
+{"timestamp":"2026-07-18T09:58:01.126Z","leadId":"shoal-creek-dental-care-005DFcfE","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 214 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T09:58:01.334Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 20 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T09:58:01.335Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T09:58:01.359Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T09:58:01.552Z","leadId":null,"stage":"enrichment","status":"info","message":"Using Hunter.io (FREE: 25 searches/month)"}
+{"timestamp":"2026-07-18T09:58:01.557Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment"}
+{"timestamp":"2026-07-18T09:58:01.560Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 20 leads from Stage 1"}
+{"timestamp":"2026-07-18T09:58:01.563Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentalaustin.com"}
+{"timestamp":"2026-07-18T09:58:02.062Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Verifying best candidate: admin@emergencydentalaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:02.833Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"pass","message":"✅ Verified: admin@emergencydentalaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:04.843Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Searching hunter for domain: smileaustin.com"}
+{"timestamp":"2026-07-18T09:58:05.178Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Verifying best candidate: info@smileaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:05.648Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"pass","message":"✅ Verified: info@smileaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:07.652Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentistofaustin.com"}
+{"timestamp":"2026-07-18T09:58:07.960Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Verifying best candidate: info@emergencydentistofaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:08.511Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"pass","message":"✅ Verified: info@emergencydentistofaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:10.518Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Searching hunter for domain: austinprimarydental.com"}
+{"timestamp":"2026-07-18T09:58:10.976Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:10.976Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:58:12.977Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Searching hunter for domain: austindentalworks.com"}
+{"timestamp":"2026-07-18T09:58:13.340Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Verifying best candidate: info@austindentalworks.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:13.720Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"pass","message":"✅ Verified: info@austindentalworks.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:15.729Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"info","message":"Searching hunter for domain: austincitydental.com"}
+{"timestamp":"2026-07-18T09:58:16.079Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"info","message":"Verifying best candidate: info@austincitydental.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:16.722Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"pass","message":"✅ Verified: info@austincitydental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:18.728Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"info","message":"Searching hunter for domain: mydental.com"}
+{"timestamp":"2026-07-18T09:58:19.082Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"info","message":"Verifying best candidate: jinal.patel@mydental.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:19.807Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"pass","message":"✅ Verified: jinal.patel@mydental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:21.813Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"info","message":"Searching hunter for domain: manosdecristo.org"}
+{"timestamp":"2026-07-18T09:58:22.185Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"info","message":"Verifying best candidate: yruiz@manosdecristo.org (Director, confidence: 98%)"}
+{"timestamp":"2026-07-18T09:58:22.963Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"pass","message":"✅ Verified: yruiz@manosdecristo.org (100% confidence, valid) — Director"}
+{"timestamp":"2026-07-18T09:58:24.971Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"info","message":"Searching hunter for domain: eastaustindental.com"}
+{"timestamp":"2026-07-18T09:58:25.271Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:25.271Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:58:27.273Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"Searching hunter for domain: swishsmiles.com"}
+{"timestamp":"2026-07-18T09:58:27.638Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"Verifying best candidate: viraj@swishsmiles.com (Founder, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:28.808Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"pass","message":"✅ Verified: viraj@swishsmiles.com (100% confidence, valid) — Founder"}
+{"timestamp":"2026-07-18T09:58:30.821Z","leadId":"ChIJuzq2ZpdLW4YRiJYW1iEBOoE","stage":"enrichment","status":"info","message":"Searching hunter for domain: dentalcentreaustin.com"}
+{"timestamp":"2026-07-18T09:58:31.478Z","leadId":"ChIJuzq2ZpdLW4YRiJYW1iEBOoE","stage":"enrichment","status":"info","message":"Verifying best candidate: care@dentalcentreaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:32.261Z","leadId":"ChIJuzq2ZpdLW4YRiJYW1iEBOoE","stage":"enrichment","status":"pass","message":"✅ Verified: care@dentalcentreaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:34.263Z","leadId":"ChIJs3SsSj61RIYRh_hYkpYKT5M","stage":"enrichment","status":"info","message":"Searching hunter for domain: thelocaldentistatx.com"}
+{"timestamp":"2026-07-18T09:58:34.606Z","leadId":"ChIJs3SsSj61RIYRh_hYkpYKT5M","stage":"enrichment","status":"info","message":"Verifying best candidate: info@thelocaldentistatx.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:35.186Z","leadId":"ChIJs3SsSj61RIYRh_hYkpYKT5M","stage":"enrichment","status":"pass","message":"✅ Verified: info@thelocaldentistatx.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:37.189Z","leadId":"ChIJdfJbg6S1RIYRbNBpAQTgf-c","stage":"enrichment","status":"info","message":"Searching hunter for domain: toothinctx.com"}
+{"timestamp":"2026-07-18T09:58:37.489Z","leadId":"ChIJdfJbg6S1RIYRbNBpAQTgf-c","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:37.490Z","leadId":"ChIJdfJbg6S1RIYRbNBpAQTgf-c","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:58:39.497Z","leadId":"ChIJ3yK4QPRMW4YRZX-45mkvQwQ","stage":"enrichment","status":"info","message":"Searching hunter for domain: dentistinaustintx.com"}
+{"timestamp":"2026-07-18T09:58:39.830Z","leadId":"ChIJ3yK4QPRMW4YRZX-45mkvQwQ","stage":"enrichment","status":"info","message":"Verifying best candidate: dentalcare@dentistinaustintx.com (unknown role, confidence: 95%)"}
+{"timestamp":"2026-07-18T09:58:40.832Z","leadId":"ChIJ3yK4QPRMW4YRZX-45mkvQwQ","stage":"enrichment","status":"pass","message":"✅ Verified: dentalcare@dentistinaustintx.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:42.839Z","leadId":"ChIJUfYH2QLLRIYR9a_qLP46DcY","stage":"enrichment","status":"info","message":"Searching hunter for domain: northaustindentist.com"}
+{"timestamp":"2026-07-18T09:58:43.134Z","leadId":"ChIJUfYH2QLLRIYR9a_qLP46DcY","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:43.134Z","leadId":"ChIJUfYH2QLLRIYR9a_qLP46DcY","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:58:45.141Z","leadId":"ChIJy-1i-_-1RIYRDV-W2x8zOdM","stage":"enrichment","status":"info","message":"Searching hunter for domain: riverrockdentalfamily.com"}
+{"timestamp":"2026-07-18T09:58:45.624Z","leadId":"ChIJy-1i-_-1RIYRDV-W2x8zOdM","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:45.625Z","leadId":"ChIJy-1i-_-1RIYRDV-W2x8zOdM","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:58:47.643Z","leadId":"ChIJb5gBC-u0RIYRHkntaUcdJGs","stage":"enrichment","status":"info","message":"Searching hunter for domain: atxfamilydental.com"}
+{"timestamp":"2026-07-18T09:58:48.119Z","leadId":"ChIJb5gBC-u0RIYRHkntaUcdJGs","stage":"enrichment","status":"info","message":"Verifying best candidate: staff@atxfamilydental.com (unknown role, confidence: 95%)"}
+{"timestamp":"2026-07-18T09:58:49.083Z","leadId":"ChIJb5gBC-u0RIYRHkntaUcdJGs","stage":"enrichment","status":"pass","message":"✅ Verified: staff@atxfamilydental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:51.089Z","leadId":"ChIJ5xM5w_BLW4YRKZpMQRYDSCE","stage":"enrichment","status":"info","message":"Searching hunter for domain: atxfamilydentistry.com"}
+{"timestamp":"2026-07-18T09:58:51.538Z","leadId":"ChIJ5xM5w_BLW4YRKZpMQRYDSCE","stage":"enrichment","status":"info","message":"Verifying best candidate: info@atxfamilydentistry.com (unknown role, confidence: 95%)"}
+{"timestamp":"2026-07-18T09:58:52.409Z","leadId":"ChIJ5xM5w_BLW4YRKZpMQRYDSCE","stage":"enrichment","status":"pass","message":"✅ Verified: info@atxfamilydentistry.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:54.424Z","leadId":"ChIJjaEoEfXMRIYRKQ0BcKXt9xY","stage":"enrichment","status":"info","message":"Searching hunter for domain: austindental.com"}
+{"timestamp":"2026-07-18T09:58:54.801Z","leadId":"ChIJjaEoEfXMRIYRKQ0BcKXt9xY","stage":"enrichment","status":"info","message":"Verifying best candidate: appt@austindental.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T09:58:55.717Z","leadId":"ChIJjaEoEfXMRIYRKQ0BcKXt9xY","stage":"enrichment","status":"pass","message":"✅ Verified: appt@austindental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T09:58:57.732Z","leadId":"ChIJT59X76DLRIYRag9005DFcfE","stage":"enrichment","status":"info","message":"Searching hunter for domain: shoalcreekdentalclinicaustin.com"}
+{"timestamp":"2026-07-18T09:58:58.031Z","leadId":"ChIJT59X76DLRIYRag9005DFcfE","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T09:58:58.032Z","leadId":"ChIJT59X76DLRIYRag9005DFcfE","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T09:59:00.032Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 14 verified, 6 unverified, 0 errors"}
+{"timestamp":"2026-07-18T09:59:00.034Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T09:59:00.056Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 3: Qualification Scoring"}
+{"timestamp":"2026-07-18T09:59:00.255Z","leadId":null,"stage":"scoring","status":"info","message":"Starting qualification scoring"}
+{"timestamp":"2026-07-18T09:59:00.262Z","leadId":null,"stage":"scoring","status":"info","message":"Scoring 14 leads (threshold: 70)"}
+{"timestamp":"2026-07-18T09:59:00.263Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.264Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.265Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.266Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.266Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.267Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.268Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.269Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.271Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.272Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.273Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.276Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.277Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"info","message":"Score: 80/100 | Reviews: 20 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.277Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 80/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.278Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.278Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.279Z","leadId":"the-dental-centre-W1iEBOoE","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.280Z","leadId":"the-dental-centre-W1iEBOoE","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.280Z","leadId":"the-local-dentist-YkpYKT5M","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.281Z","leadId":"the-local-dentist-YkpYKT5M","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.282Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.282Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.283Z","leadId":"atx-family-dental-taUcdJGs","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.283Z","leadId":"atx-family-dental-taUcdJGs","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.284Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.284Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.285Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T09:59:00.286Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T09:59:00.287Z","leadId":null,"stage":"scoring","status":"info","message":"Complete: 14 qualified, 0 disqualified"}
+{"timestamp":"2026-07-18T09:59:00.290Z","leadId":null,"stage":"scoring","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage3-scored.json"}
+{"timestamp":"2026-07-18T09:59:00.300Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 4: Demo Customization"}
+{"timestamp":"2026-07-18T09:59:00.489Z","leadId":null,"stage":"demo","status":"info","message":"Starting demo customization"}
+{"timestamp":"2026-07-18T09:59:00.494Z","leadId":null,"stage":"demo","status":"info","message":"Customizing demos for 14 leads"}
+{"timestamp":"2026-07-18T09:59:00.495Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"demo","status":"info","message":"Generating demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:59:00.496Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.497Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:59:00.499Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.499Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"demo","status":"info","message":"Generating demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:59:00.500Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.501Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:59:00.503Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.504Z","leadId":"austin-city-dental-4pGMKusA","stage":"demo","status":"info","message":"Generating demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T09:59:00.504Z","leadId":"austin-city-dental-4pGMKusA","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.505Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"demo","status":"info","message":"Generating demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T09:59:00.506Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.507Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"info","message":"Generating demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T09:59:00.509Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.510Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"demo","status":"info","message":"Generating demo for: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T09:59:00.510Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.511Z","leadId":"the-dental-centre-W1iEBOoE","stage":"demo","status":"info","message":"Generating demo for: The Dental Centre"}
+{"timestamp":"2026-07-18T09:59:00.511Z","leadId":"the-dental-centre-W1iEBOoE","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.512Z","leadId":"the-local-dentist-YkpYKT5M","stage":"demo","status":"info","message":"Generating demo for: The Local Dentist"}
+{"timestamp":"2026-07-18T09:59:00.513Z","leadId":"the-local-dentist-YkpYKT5M","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.513Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"demo","status":"info","message":"Generating demo for: Dentist in Austin."}
+{"timestamp":"2026-07-18T09:59:00.514Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.514Z","leadId":"atx-family-dental-taUcdJGs","stage":"demo","status":"info","message":"Generating demo for: ATX Family Dental"}
+{"timestamp":"2026-07-18T09:59:00.516Z","leadId":"atx-family-dental-taUcdJGs","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.517Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Specialty Group"}
+{"timestamp":"2026-07-18T09:59:00.518Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.518Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"demo","status":"info","message":"Generating demo for: Choice Austin Dental"}
+{"timestamp":"2026-07-18T09:59:00.520Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T09:59:00.520Z","leadId":null,"stage":"demo","status":"info","message":"Complete: 14 customized, 0 errors"}
+{"timestamp":"2026-07-18T09:59:00.535Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 5: Deployment to Render"}
+{"timestamp":"2026-07-18T09:59:00.722Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🧪 DRY RUN)"}
+{"timestamp":"2026-07-18T09:59:00.727Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 14 demos (🧪 DRY RUN)"}
+{"timestamp":"2026-07-18T09:59:00.729Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T09:59:00.731Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-emergency-dental-VrpwODY4-full.json"}
+{"timestamp":"2026-07-18T09:59:00.732Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T09:59:00.732Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-center-pc-RJiV3HJU-full.json"}
+{"timestamp":"2026-07-18T09:59:00.733Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T09:59:00.734Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\emergency-dentist-of-austin-dhSsCHHk-full.json"}
+{"timestamp":"2026-07-18T09:59:00.735Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T09:59:00.736Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-works-s0RVjV3Y-full.json"}
+{"timestamp":"2026-07-18T09:59:00.737Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T09:59:00.738Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-city-dental-4pGMKusA-full.json"}
+{"timestamp":"2026-07-18T09:59:00.738Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T09:59:00.739Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\mydental-at-tech-ridge-oVqGeGa0-full.json"}
+{"timestamp":"2026-07-18T09:59:00.740Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T09:59:00.741Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\manos-de-cristo-dental-center-d7mCcdKY-full.json"}
+{"timestamp":"2026-07-18T09:59:00.743Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"deploy","status":"info","message":"Deploying demo for: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T09:59:00.744Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\swish-dental-downtown-4IrRuTmQ-full.json"}
+{"timestamp":"2026-07-18T09:59:00.745Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"info","message":"Deploying demo for: The Dental Centre"}
+{"timestamp":"2026-07-18T09:59:00.746Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\the-dental-centre-W1iEBOoE-full.json"}
+{"timestamp":"2026-07-18T09:59:00.747Z","leadId":"the-local-dentist-YkpYKT5M","stage":"deploy","status":"info","message":"Deploying demo for: The Local Dentist"}
+{"timestamp":"2026-07-18T09:59:00.748Z","leadId":"the-local-dentist-YkpYKT5M","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\the-local-dentist-YkpYKT5M-full.json"}
+{"timestamp":"2026-07-18T09:59:00.749Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"deploy","status":"info","message":"Deploying demo for: Dentist in Austin."}
+{"timestamp":"2026-07-18T09:59:00.750Z","leadId":"dentist-in-austin-45mkvQwQ","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\dentist-in-austin-45mkvQwQ-full.json"}
+{"timestamp":"2026-07-18T09:59:00.750Z","leadId":"atx-family-dental-taUcdJGs","stage":"deploy","status":"info","message":"Deploying demo for: ATX Family Dental"}
+{"timestamp":"2026-07-18T09:59:00.751Z","leadId":"atx-family-dental-taUcdJGs","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\atx-family-dental-taUcdJGs-full.json"}
+{"timestamp":"2026-07-18T09:59:00.752Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Specialty Group"}
+{"timestamp":"2026-07-18T09:59:00.753Z","leadId":"austin-dental-specialty-group-MQRYDSCE","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-specialty-group-MQRYDSCE-full.json"}
+{"timestamp":"2026-07-18T09:59:00.753Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"deploy","status":"info","message":"Deploying demo for: Choice Austin Dental"}
+{"timestamp":"2026-07-18T09:59:00.754Z","leadId":"choice-austin-dental-BcKXt9xY","stage":"deploy","status":"error","message":"Deployment failed: Demo config not found: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\choice-austin-dental-BcKXt9xY-full.json"}
+{"timestamp":"2026-07-18T09:59:00.755Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 14 errors"}
+{"timestamp":"2026-07-18T09:59:00.774Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 6: Outreach Generation"}
+{"timestamp":"2026-07-18T09:59:01.521Z","leadId":null,"stage":"outreach","status":"info","message":"Starting outreach generation"}
+{"timestamp":"2026-07-18T10:00:51.570Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T10:00:51.810Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T10:00:51.817Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T10:00:52.051Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T10:00:52.052Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:00:52.055Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:52.259Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:00:52.267Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:52.472Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:00:52.476Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1451 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:52.689Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T10:00:52.692Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:52.898Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:00:52.901Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:53.121Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"info","message":"Processing: Austin City Dental"}
+{"timestamp":"2026-07-18T10:00:53.123Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 656 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:53.330Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"discovery","status":"info","message":"Processing: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:00:53.334Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1487 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:53.547Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"info","message":"Processing: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:00:53.571Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"pass","message":"Score 50/100 | Reviews: 46 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:53.794Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"info","message":"Processing: East Austin Dental"}
+{"timestamp":"2026-07-18T10:00:53.824Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 91 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:54.037Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"info","message":"Processing: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T10:00:54.040Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 932 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T10:00:54.253Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 10 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T10:00:54.254Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T10:00:54.282Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T10:00:54.496Z","leadId":null,"stage":"enrichment","status":"info","message":"Using Hunter.io (FREE: 25 searches/month)"}
+{"timestamp":"2026-07-18T10:00:54.500Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment"}
+{"timestamp":"2026-07-18T10:00:54.502Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 10 leads from Stage 1"}
+{"timestamp":"2026-07-18T10:00:54.504Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentalaustin.com"}
+{"timestamp":"2026-07-18T10:00:55.412Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Verifying best candidate: admin@emergencydentalaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:00:56.801Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"pass","message":"✅ Verified: admin@emergencydentalaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:00:58.817Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Searching hunter for domain: smileaustin.com"}
+{"timestamp":"2026-07-18T10:00:59.199Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Verifying best candidate: info@smileaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:00.050Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"pass","message":"✅ Verified: info@smileaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:01:02.067Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Searching hunter for domain: emergencydentistofaustin.com"}
+{"timestamp":"2026-07-18T10:01:02.772Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Verifying best candidate: info@emergencydentistofaustin.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:03.470Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"pass","message":"✅ Verified: info@emergencydentistofaustin.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:01:05.478Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Searching hunter for domain: austinprimarydental.com"}
+{"timestamp":"2026-07-18T10:01:05.828Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T10:01:05.829Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T10:01:07.838Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Searching hunter for domain: austindentalworks.com"}
+{"timestamp":"2026-07-18T10:01:08.319Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Verifying best candidate: info@austindentalworks.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:08.730Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"pass","message":"✅ Verified: info@austindentalworks.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:01:10.756Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"info","message":"Searching hunter for domain: austincitydental.com"}
+{"timestamp":"2026-07-18T10:01:11.585Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"info","message":"Verifying best candidate: info@austincitydental.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:12.037Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"pass","message":"✅ Verified: info@austincitydental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:01:14.045Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"info","message":"Searching hunter for domain: mydental.com"}
+{"timestamp":"2026-07-18T10:01:14.486Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"info","message":"Verifying best candidate: jinal.patel@mydental.com (unknown role, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:14.932Z","leadId":"ChIJofuRUsfORIYRJcKoVqGeGa0","stage":"enrichment","status":"pass","message":"✅ Verified: jinal.patel@mydental.com (100% confidence, valid) — no title"}
+{"timestamp":"2026-07-18T10:01:16.940Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"info","message":"Searching hunter for domain: manosdecristo.org"}
+{"timestamp":"2026-07-18T10:01:17.282Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"info","message":"Verifying best candidate: yruiz@manosdecristo.org (Director, confidence: 98%)"}
+{"timestamp":"2026-07-18T10:01:17.984Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"pass","message":"✅ Verified: yruiz@manosdecristo.org (100% confidence, valid) — Director"}
+{"timestamp":"2026-07-18T10:01:19.992Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"info","message":"Searching hunter for domain: eastaustindental.com"}
+{"timestamp":"2026-07-18T10:01:20.310Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"info","message":"No emails found via hunter domain search"}
+{"timestamp":"2026-07-18T10:01:20.310Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T10:01:22.318Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"Searching hunter for domain: swishsmiles.com"}
+{"timestamp":"2026-07-18T10:01:23.006Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"Verifying best candidate: viraj@swishsmiles.com (Founder, confidence: 99%)"}
+{"timestamp":"2026-07-18T10:01:23.752Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"fail","message":"Best candidate failed verification: invalid (0% — need 80%+)"}
+{"timestamp":"2026-07-18T10:01:23.753Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"fail","message":"⚠️ NO VERIFIED CONTACT FOUND — flagging for manual review"}
+{"timestamp":"2026-07-18T10:01:25.765Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 7 verified, 3 unverified, 0 errors"}
+{"timestamp":"2026-07-18T10:01:25.767Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T10:01:25.830Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 3: Qualification Scoring"}
+{"timestamp":"2026-07-18T10:01:26.058Z","leadId":null,"stage":"scoring","status":"info","message":"Starting qualification scoring"}
+{"timestamp":"2026-07-18T10:01:26.064Z","leadId":null,"stage":"scoring","status":"info","message":"Scoring 7 leads (threshold: 70)"}
+{"timestamp":"2026-07-18T10:01:26.065Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.066Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.076Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"info","message":"Score: 75/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.077Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 75/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.083Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.084Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.092Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.093Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.099Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.100Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.108Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"scoring","status":"info","message":"Score: 70/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.110Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 70/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.116Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"info","message":"Score: 80/100 | Reviews: 20 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 15"}
+{"timestamp":"2026-07-18T10:01:26.117Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 80/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T10:01:26.128Z","leadId":null,"stage":"scoring","status":"info","message":"Complete: 7 qualified, 0 disqualified"}
+{"timestamp":"2026-07-18T10:01:26.129Z","leadId":null,"stage":"scoring","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage3-scored.json"}
+{"timestamp":"2026-07-18T10:01:26.163Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 4: Demo Customization"}
+{"timestamp":"2026-07-18T10:01:26.434Z","leadId":null,"stage":"demo","status":"info","message":"Starting demo customization"}
+{"timestamp":"2026-07-18T10:01:26.440Z","leadId":null,"stage":"demo","status":"info","message":"Customizing demos for 7 leads"}
+{"timestamp":"2026-07-18T10:01:26.443Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"demo","status":"info","message":"Generating demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:01:26.447Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-emergency-dental-VrpwODY4.json"}
+{"timestamp":"2026-07-18T10:01:26.455Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.459Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:01:26.463Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-center-pc-RJiV3HJU.json"}
+{"timestamp":"2026-07-18T10:01:26.470Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.471Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"demo","status":"info","message":"Generating demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:01:26.476Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\emergency-dentist-of-austin-dhSsCHHk.json"}
+{"timestamp":"2026-07-18T10:01:26.486Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.487Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:01:26.495Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-works-s0RVjV3Y.json"}
+{"timestamp":"2026-07-18T10:01:26.502Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.502Z","leadId":"austin-city-dental-4pGMKusA","stage":"demo","status":"info","message":"Generating demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:01:26.506Z","leadId":"austin-city-dental-4pGMKusA","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-city-dental-4pGMKusA.json"}
+{"timestamp":"2026-07-18T10:01:26.517Z","leadId":"austin-city-dental-4pGMKusA","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.518Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"demo","status":"info","message":"Generating demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:01:26.522Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\mydental-at-tech-ridge-oVqGeGa0.json"}
+{"timestamp":"2026-07-18T10:01:26.571Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.572Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"info","message":"Generating demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:01:26.578Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\manos-de-cristo-dental-center-d7mCcdKY.json"}
+{"timestamp":"2026-07-18T10:01:26.584Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T10:01:26.584Z","leadId":null,"stage":"demo","status":"info","message":"Complete: 7 customized, 0 errors"}
+{"timestamp":"2026-07-18T10:01:26.634Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 5: Deployment to Render"}
+{"timestamp":"2026-07-18T10:01:26.996Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:01:27.004Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 7 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:01:27.008Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:01:27.639Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:01:28.766Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:29.779Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:01:30.475Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-center-pc-RJiV3HJU"}
+{"timestamp":"2026-07-18T10:01:30.769Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:31.779Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:01:32.302Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Git: committed to branch demo-emergency-dentist-of-austin-dhSsCHHk"}
+{"timestamp":"2026-07-18T10:01:32.583Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:33.590Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:01:34.052Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-works-s0RVjV3Y"}
+{"timestamp":"2026-07-18T10:01:34.336Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:35.339Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:01:35.928Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-city-dental-4pGMKusA"}
+{"timestamp":"2026-07-18T10:01:36.222Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:37.234Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:01:37.769Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Git: committed to branch demo-mydental-at-tech-ridge-oVqGeGa0"}
+{"timestamp":"2026-07-18T10:01:38.047Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:39.059Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:01:39.586Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Git: committed to branch demo-manos-de-cristo-dental-center-d7mCcdKY"}
+{"timestamp":"2026-07-18T10:01:39.863Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"ownerID is a required field\"}\n"}
+{"timestamp":"2026-07-18T10:01:40.875Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 7 errors"}
+{"timestamp":"2026-07-18T10:01:40.901Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 6: Outreach Generation"}
+{"timestamp":"2026-07-18T10:01:41.312Z","leadId":null,"stage":"outreach","status":"info","message":"Starting outreach generation"}
+{"timestamp":"2026-07-18T10:02:47.157Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:02:47.180Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 7 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:02:47.183Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:02:48.016Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:02:48.478Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:02:49.486Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:02:50.376Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-center-pc-RJiV3HJU"}
+{"timestamp":"2026-07-18T10:02:50.672Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:02:51.682Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:02:52.665Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Git: committed to branch demo-emergency-dentist-of-austin-dhSsCHHk"}
+{"timestamp":"2026-07-18T10:02:52.959Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:02:53.967Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:02:54.820Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-works-s0RVjV3Y"}
+{"timestamp":"2026-07-18T10:02:55.117Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:02:56.130Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:02:57.105Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-city-dental-4pGMKusA"}
+{"timestamp":"2026-07-18T10:02:57.395Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:02:58.404Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:02:59.301Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Git: committed to branch demo-mydental-at-tech-ridge-oVqGeGa0"}
+{"timestamp":"2026-07-18T10:02:59.589Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:03:00.595Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:03:01.512Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Git: committed to branch demo-manos-de-cristo-dental-center-d7mCcdKY"}
+{"timestamp":"2026-07-18T10:03:01.802Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"must include serviceDetails when creating a non-static service\"}\n"}
+{"timestamp":"2026-07-18T10:03:02.810Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 7 errors"}
+{"timestamp":"2026-07-18T10:03:22.660Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:03:22.667Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 7 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:03:22.672Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:03:23.527Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:03:23.994Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:25.004Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:03:25.992Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-center-pc-RJiV3HJU"}
+{"timestamp":"2026-07-18T10:03:26.282Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:27.298Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:03:28.220Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Git: committed to branch demo-emergency-dentist-of-austin-dhSsCHHk"}
+{"timestamp":"2026-07-18T10:03:28.509Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:29.519Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:03:30.427Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-works-s0RVjV3Y"}
+{"timestamp":"2026-07-18T10:03:30.950Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:31.961Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:03:32.870Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-city-dental-4pGMKusA"}
+{"timestamp":"2026-07-18T10:03:33.163Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:34.172Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:03:35.083Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Git: committed to branch demo-mydental-at-tech-ridge-oVqGeGa0"}
+{"timestamp":"2026-07-18T10:03:35.385Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"error","message":"Deployment failed: Render API 400: {\"message\":\"invalid runtime: . valid runtimes are: [docker, elixir, go, node, python, ruby, rust, image]\"}\n"}
+{"timestamp":"2026-07-18T10:03:36.406Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:03:37.247Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Git: committed to branch demo-manos-de-cristo-dental-center-d7mCcdKY"}
+{"timestamp":"2026-07-18T10:03:37.533Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:03:38.544Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 7 errors"}
+{"timestamp":"2026-07-18T10:04:17.700Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:04:17.708Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 7 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:04:17.713Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:04:18.484Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:04:18.933Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:21.946Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:04:23.151Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-center-pc-RJiV3HJU"}
+{"timestamp":"2026-07-18T10:04:23.453Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:26.474Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:04:27.674Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Git: committed to branch demo-emergency-dentist-of-austin-dhSsCHHk"}
+{"timestamp":"2026-07-18T10:04:27.955Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:30.965Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:04:31.733Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-dental-works-s0RVjV3Y"}
+{"timestamp":"2026-07-18T10:04:32.014Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:35.016Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:04:35.847Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-city-dental-4pGMKusA"}
+{"timestamp":"2026-07-18T10:04:36.125Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:39.131Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:04:39.946Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Git: committed to branch demo-mydental-at-tech-ridge-oVqGeGa0"}
+{"timestamp":"2026-07-18T10:04:40.230Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:43.235Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:04:44.049Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Git: committed to branch demo-manos-de-cristo-dental-center-d7mCcdKY"}
+{"timestamp":"2026-07-18T10:04:44.327Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:04:47.336Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 7 errors"}
+{"timestamp":"2026-07-18T10:05:21.570Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:05:21.577Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:05:21.581Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:05:22.792Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:05:23.398Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:05:26.406Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 1 errors"}
+{"timestamp":"2026-07-18T10:06:06.737Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:06:06.744Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:06:06.750Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:06:08.873Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Git: committed to branch demo-austin-emergency-dental-VrpwODY4"}
+{"timestamp":"2026-07-18T10:06:09.431Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Render API 429: {\"error\": \"rate limit exceeded\"}"}
+{"timestamp":"2026-07-18T10:06:12.436Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 1 errors"}
+{"timestamp":"2026-07-18T10:10:29.839Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T10:10:29.850Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:10:29.856Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:10:29.859Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:10:32.919Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Vercel: deployment dpl_AtRvLmXx2X3UMvqjWgT4UenGp2z4 (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:10:39.939Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-emergency-dental-vrpwody4-rb1s4nycv.vercel.app"}
+{"timestamp":"2026-07-18T10:10:41.963Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T10:10:59.479Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T10:10:59.490Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 7 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T10:10:59.494Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:10:59.498Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:02.501Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Vercel: deployment dpl_3AtDVrrfDjJqNDjD4829kDKt1j6Q (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:11:09.476Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-emergency-dental-vrpwody4-jhercqtdm.vercel.app"}
+{"timestamp":"2026-07-18T10:11:11.509Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:11:11.608Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:13.552Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Vercel: deployment dpl_GznDcS1Zg7wMorFYWxfk1kLdVYoh (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:11:20.602Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-dental-center-pc-rjiv3hju-88vl7z3sc.vercel.app"}
+{"timestamp":"2026-07-18T10:11:22.715Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:11:22.759Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:25.605Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Vercel: deployment dpl_6AsdeBtri4UPJTFw9fw9m6AyBz84 (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:11:32.566Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"pass","message":"✅ Deployed: demo-emergency-dentist-of-austin-dhsschhk-9188isv5x.vercel.app"}
+{"timestamp":"2026-07-18T10:11:34.667Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:11:34.678Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:36.662Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Vercel: deployment dpl_4xb8ruyf1QDY1i7yUUMkTjZCeSPs (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:11:43.625Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-dental-works-s0rvjv3y-31n83th5b-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T10:11:45.665Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:11:45.670Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:47.531Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Vercel: deployment dpl_EQCDaRyPVtkwy14Ub5wQwHsLM7Fx (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:11:54.644Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-city-dental-4pgmkusa-e480tvcre-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T10:11:56.670Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:11:56.704Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:11:58.784Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Vercel: deployment dpl_DUGLZ7XFmZ114pM6a7bccjLvzLHU (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:12:05.460Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"pass","message":"✅ Deployed: demo-mydental-at-tech-ridge-ovqgega0-lv1fazf4r.vercel.app"}
+{"timestamp":"2026-07-18T10:12:07.481Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:12:07.486Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T10:12:09.478Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Vercel: deployment dpl_Dt8yrW7WJNEvVJB1pscj34xZcdLJ (INITIALIZING)"}
+{"timestamp":"2026-07-18T10:12:16.916Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"pass","message":"✅ Deployed: demo-manos-de-cristo-dental-center-d7mccdky-klz8wj4ro.vercel.app"}
+{"timestamp":"2026-07-18T10:12:18.954Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 7 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T10:12:40.790Z","leadId":null,"stage":"outreach","status":"info","message":"Starting outreach generation"}
+{"timestamp":"2026-07-18T10:12:40.890Z","leadId":null,"stage":"outreach","status":"info","message":"Generating outreach for 7 leads"}
+{"timestamp":"2026-07-18T10:12:40.892Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"outreach","status":"info","message":"Generating outreach for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T10:12:40.893Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:49.611Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Satisfaction at Austin Emergency Dental\""}
+{"timestamp":"2026-07-18T10:12:49.622Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"outreach","status":"pass","message":"✅ Outreach generated (79 words)"}
+{"timestamp":"2026-07-18T10:12:50.155Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Generating outreach for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T10:12:50.172Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:50.435Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Engagement at Austin Dental Center, PC\""}
+{"timestamp":"2026-07-18T10:12:50.443Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"pass","message":"✅ Outreach generated (73 words)"}
+{"timestamp":"2026-07-18T10:12:50.946Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"outreach","status":"info","message":"Generating outreach for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T10:12:50.947Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:51.230Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Satisfaction with Automated Welcomes\""}
+{"timestamp":"2026-07-18T10:12:51.242Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"outreach","status":"pass","message":"✅ Outreach generated (71 words)"}
+{"timestamp":"2026-07-18T10:12:51.745Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"outreach","status":"info","message":"Generating outreach for: Austin Dental Works"}
+{"timestamp":"2026-07-18T10:12:51.746Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:52.051Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Loyalty with AI-Powered Reception\""}
+{"timestamp":"2026-07-18T10:12:52.060Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"outreach","status":"pass","message":"✅ Outreach generated (68 words)"}
+{"timestamp":"2026-07-18T10:12:52.566Z","leadId":"austin-city-dental-4pGMKusA","stage":"outreach","status":"info","message":"Generating outreach for: Austin City Dental"}
+{"timestamp":"2026-07-18T10:12:52.567Z","leadId":"austin-city-dental-4pGMKusA","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:53.124Z","leadId":"austin-city-dental-4pGMKusA","stage":"outreach","status":"info","message":"Generated: \"Streamline Patient Onboarding at Austin City Dental\""}
+{"timestamp":"2026-07-18T10:12:53.132Z","leadId":"austin-city-dental-4pGMKusA","stage":"outreach","status":"pass","message":"✅ Outreach generated (82 words)"}
+{"timestamp":"2026-07-18T10:12:53.663Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"outreach","status":"info","message":"Generating outreach for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T10:12:53.700Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:54.175Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Satisfaction at myDental at Tech Ridge\""}
+{"timestamp":"2026-07-18T10:12:54.184Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"outreach","status":"pass","message":"✅ Outreach generated (75 words)"}
+{"timestamp":"2026-07-18T10:12:54.692Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Generating outreach for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T10:12:54.692Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T10:12:55.014Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Generated: \"Enhance Patient Delight at Manos De Cristo Dental Center\""}
+{"timestamp":"2026-07-18T10:12:55.023Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"pass","message":"✅ Outreach generated (65 words)"}
+{"timestamp":"2026-07-18T10:12:55.530Z","leadId":null,"stage":"outreach","status":"info","message":"Complete: 7 generated, 0 errors"}
+{"timestamp":"2026-07-18T10:13:41.803Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T10:13:41.812Z","leadId":null,"stage":"export","status":"info","message":"Exporting 20 leads"}
+{"timestamp":"2026-07-18T10:13:41.815Z","leadId":null,"stage":"export","status":"info","message":"CSV exported: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\leads-export-2026-07-18.csv"}
+{"timestamp":"2026-07-18T10:13:41.818Z","leadId":null,"stage":"export","status":"info","message":"JSON exported: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\leads-export-2026-07-18.json"}
+{"timestamp":"2026-07-18T10:13:41.833Z","leadId":null,"stage":"export","status":"info","message":"Dashboard: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\leads-export-2026-07-18-dashboard.json"}
+{"timestamp":"2026-07-18T10:13:41.835Z","leadId":null,"stage":"export","status":"info","message":"Export complete: 20 leads, dashboard generated"}
+{"timestamp":"2026-07-18T10:31:35.649Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T10:31:35.691Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T12:55:45.415Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T12:55:45.462Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T12:55:45.468Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T12:55:45.473Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T12:55:48.164Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"error","message":"Deployment failed: Vercel API 400: {\"error\":{\"code\":\"bad_request\",\"message\":\"Invalid request: should NOT have additional property `public`. Please remove it.\",\"action\":\"View Documentation\",\"link\":\"https://vercel.com/docs/configuration\",\"keyword\":\"additionalProperties\",\"dataPath\":\"\",\"params\":{\"additionalProperty\":\"public\"}}}"}
+{"timestamp":"2026-07-18T12:55:50.185Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 0 deployed, 0 skipped, 1 errors"}
+{"timestamp":"2026-07-18T12:56:31.017Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T12:56:31.040Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T12:56:31.046Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T12:56:31.049Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T12:56:34.460Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Vercel: deployment dpl_5F9hHxn2mvpPLpFVGSpVsy3o6HoP (INITIALIZING)"}
+{"timestamp":"2026-07-18T12:56:47.986Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-emergency-dental-vrpwody4-8k1o0syx7.vercel.app"}
+{"timestamp":"2026-07-18T12:56:50.020Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:13:50.328Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 1: Lead Discovery — dental clinic in Austin, TX"}
+{"timestamp":"2026-07-18T13:13:52.155Z","leadId":null,"stage":"discovery","status":"info","message":"Starting lead discovery: \"dental clinic Austin TX\" (provider: serpapi)"}
+{"timestamp":"2026-07-18T13:13:52.177Z","leadId":null,"stage":"discovery","status":"info","message":"Searching SerpAPI for \"dental clinic Austin TX\"..."}
+{"timestamp":"2026-07-18T13:13:54.135Z","leadId":null,"stage":"discovery","status":"info","message":"Found 20 raw results"}
+{"timestamp":"2026-07-18T13:13:54.137Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"info","message":"Processing: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T13:13:54.145Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 1452 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:54.353Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"info","message":"Processing: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T13:13:54.365Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 151 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:54.577Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"info","message":"Processing: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T13:13:54.599Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 747 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:54.817Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"info","message":"Processing: Austin Dental Works"}
+{"timestamp":"2026-07-18T13:13:54.823Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 626 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:55.053Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"info","message":"Processing: Austin Primary Dental"}
+{"timestamp":"2026-07-18T13:13:55.065Z","leadId":"austin-primary-dental-TvQufW1o","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 365 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:55.273Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"info","message":"Processing: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T13:13:55.287Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"discovery","status":"pass","message":"Score 50/100 | Reviews: 46 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:55.488Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"info","message":"Processing: Austin City Dental"}
+{"timestamp":"2026-07-18T13:13:55.494Z","leadId":"austin-city-dental-4pGMKusA","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 656 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:55.701Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"info","message":"Processing: East Austin Dental"}
+{"timestamp":"2026-07-18T13:13:55.708Z","leadId":"east-austin-dental-UxzwnGek","stage":"discovery","status":"pass","message":"Score 40/100 | Reviews: 91 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:55.918Z","leadId":"the-dental-centre-W1iEBOoE","stage":"discovery","status":"info","message":"Processing: The Dental Centre"}
+{"timestamp":"2026-07-18T13:13:55.927Z","leadId":"the-dental-centre-W1iEBOoE","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 294 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:56.129Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"info","message":"Processing: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T13:13:56.155Z","leadId":"swish-dental-downtown-4IrRuTmQ","stage":"discovery","status":"pass","message":"Score 35/100 | Reviews: 932 | Website: present | Booking: MISSING | Phone complaints: 0"}
+{"timestamp":"2026-07-18T13:13:56.364Z","leadId":null,"stage":"discovery","status":"info","message":"Complete: 10 qualified, 0 dropped"}
+{"timestamp":"2026-07-18T13:13:56.376Z","leadId":null,"stage":"discovery","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage1-discovered.json"}
+{"timestamp":"2026-07-18T13:13:56.418Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 2: Enrichment (Hunter.io)"}
+{"timestamp":"2026-07-18T13:13:57.018Z","leadId":null,"stage":"enrichment","status":"info","message":"Starting lead enrichment (100% FREE — website scraping)"}
+{"timestamp":"2026-07-18T13:13:57.030Z","leadId":null,"stage":"enrichment","status":"info","message":"Enriching 10 leads (free website scraping)"}
+{"timestamp":"2026-07-18T13:13:57.033Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"info","message":"Scraping website for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T13:14:01.151Z","leadId":"ChIJpXb4FgrJRIYRyRpdhSsCHHk","stage":"enrichment","status":"pass","message":"✅ Verified: info@emergencydentistofaustin.com (85% confidence, MX verified) — 1 emails found on site"}
+{"timestamp":"2026-07-18T13:14:01.668Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"info","message":"Scraping website for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T13:14:09.511Z","leadId":"ChIJ74saePXKRIYR6KfRJiV3HJU","stage":"enrichment","status":"pass","message":"✅ Verified: info@smileaustin.com (85% confidence, MX verified) — 1 emails found on site"}
+{"timestamp":"2026-07-18T13:14:10.080Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"info","message":"Scraping website for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T13:14:13.004Z","leadId":"ChIJV_V-o8WzRIYRyWFVrpwODY4","stage":"enrichment","status":"pass","message":"✅ Verified: admin@emergencydentalaustin.com (85% confidence, MX verified) — 2 emails found on site"}
+{"timestamp":"2026-07-18T13:14:13.562Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"info","message":"Scraping website for: Austin Dental Works"}
+{"timestamp":"2026-07-18T13:14:15.270Z","leadId":"ChIJZUcojGPKRIYRzcMs0RVjV3Y","stage":"enrichment","status":"pass","message":"✅ Verified: info@austindentalworks.com (85% confidence, MX verified) — 1 emails found on site"}
+{"timestamp":"2026-07-18T13:14:15.834Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"Scraping website for: Austin Primary Dental"}
+{"timestamp":"2026-07-18T13:14:20.497Z","leadId":"ChIJL9iLaGRLW4YRG9VTvQufW1o","stage":"enrichment","status":"info","message":"No emails found on website: https://austinprimarydental.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website"}
+{"timestamp":"2026-07-18T13:14:21.049Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"info","message":"Scraping website for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T13:14:28.379Z","leadId":"ChIJqbhkca61RIYRCZbd7mCcdKY","stage":"enrichment","status":"pass","message":"✅ Verified: jballesteros@manosdecristo.org (85% confidence, MX verified) — 12 emails found on site"}
+{"timestamp":"2026-07-18T13:14:28.937Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"info","message":"Scraping website for: Austin City Dental"}
+{"timestamp":"2026-07-18T13:14:31.989Z","leadId":"ChIJBy72toXKRIYRhRa4pGMKusA","stage":"enrichment","status":"pass","message":"✅ Verified: info@austincitydental.com (85% confidence, MX verified) — 1 emails found on site"}
+{"timestamp":"2026-07-18T13:14:32.519Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"info","message":"Scraping website for: East Austin Dental"}
+{"timestamp":"2026-07-18T13:14:34.727Z","leadId":"ChIJtZ6Dkq-1RIYRgNWUxzwnGek","stage":"enrichment","status":"pass","message":"✅ Verified: eastaustindental@gmail.com (85% confidence, MX verified) — 1 emails found on site"}
+{"timestamp":"2026-07-18T13:14:35.245Z","leadId":"ChIJuzq2ZpdLW4YRiJYW1iEBOoE","stage":"enrichment","status":"info","message":"Scraping website for: The Dental Centre"}
+{"timestamp":"2026-07-18T13:14:37.750Z","leadId":"ChIJuzq2ZpdLW4YRiJYW1iEBOoE","stage":"enrichment","status":"pass","message":"✅ Verified: care@dentalcentreaustin.com (85% confidence, MX verified) — 3 emails found on site"}
+{"timestamp":"2026-07-18T13:14:38.268Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"Scraping website for: Swish Dental Downtown"}
+{"timestamp":"2026-07-18T13:14:42.229Z","leadId":"ChIJdWgENLS1RIYReos4IrRuTmQ","stage":"enrichment","status":"info","message":"No emails found on website: https://www.swishsmiles.com/location/downtown"}
+{"timestamp":"2026-07-18T13:14:42.746Z","leadId":null,"stage":"enrichment","status":"info","message":"Complete: 8 verified, 2 unverified, 0 errors"}
+{"timestamp":"2026-07-18T13:14:42.758Z","leadId":null,"stage":"enrichment","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage2-enriched.json"}
+{"timestamp":"2026-07-18T13:14:42.869Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 3: Qualification Scoring"}
+{"timestamp":"2026-07-18T13:14:43.289Z","leadId":null,"stage":"scoring","status":"info","message":"Starting qualification scoring"}
+{"timestamp":"2026-07-18T13:14:43.297Z","leadId":null,"stage":"scoring","status":"info","message":"Scoring 8 leads (threshold: 70)"}
+{"timestamp":"2026-07-18T13:14:43.300Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"info","message":"Score: 67/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.303Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"scoring","status":"fail","message":"❌ DISQUALIFIED — Score 67/100 < 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.312Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"info","message":"Score: 72/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.313Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 72/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.324Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"info","message":"Score: 67/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.325Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"scoring","status":"fail","message":"❌ DISQUALIFIED — Score 67/100 < 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.332Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"info","message":"Score: 67/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.334Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"scoring","status":"fail","message":"❌ DISQUALIFIED — Score 67/100 < 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.340Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"info","message":"Score: 77/100 | Reviews: 20 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.340Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 77/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.357Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"info","message":"Score: 67/100 | Reviews: 10 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.358Z","leadId":"austin-city-dental-4pGMKusA","stage":"scoring","status":"fail","message":"❌ DISQUALIFIED — Score 67/100 < 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.364Z","leadId":"east-austin-dental-UxzwnGek","stage":"scoring","status":"info","message":"Score: 82/100 | Reviews: 25 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.366Z","leadId":"east-austin-dental-UxzwnGek","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 82/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.443Z","leadId":"the-dental-centre-W1iEBOoE","stage":"scoring","status":"info","message":"Score: 72/100 | Reviews: 15 | Booking: 25 | Phone: 0 | Size: 15 | Vertical: 5 | Email: 12"}
+{"timestamp":"2026-07-18T13:14:43.444Z","leadId":"the-dental-centre-W1iEBOoE","stage":"scoring","status":"pass","message":"✅ QUALIFIED — Score 72/100 >= 70 threshold"}
+{"timestamp":"2026-07-18T13:14:43.453Z","leadId":null,"stage":"scoring","status":"info","message":"Complete: 4 qualified, 4 disqualified"}
+{"timestamp":"2026-07-18T13:14:43.455Z","leadId":null,"stage":"scoring","status":"info","message":"Results saved to C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\leads\\stage3-scored.json"}
+{"timestamp":"2026-07-18T13:14:43.477Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 4: Demo Customization"}
+{"timestamp":"2026-07-18T13:14:43.921Z","leadId":null,"stage":"demo","status":"info","message":"Starting demo customization"}
+{"timestamp":"2026-07-18T13:14:43.927Z","leadId":null,"stage":"demo","status":"info","message":"Customizing demos for 4 leads"}
+{"timestamp":"2026-07-18T13:14:43.929Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"info","message":"Generating demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T13:14:43.943Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\austin-dental-center-pc-RJiV3HJU.json"}
+{"timestamp":"2026-07-18T13:14:43.955Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T13:14:43.956Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"info","message":"Generating demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T13:14:43.959Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\manos-de-cristo-dental-center-d7mCcdKY.json"}
+{"timestamp":"2026-07-18T13:14:43.969Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T13:14:43.970Z","leadId":"east-austin-dental-UxzwnGek","stage":"demo","status":"info","message":"Generating demo for: East Austin Dental"}
+{"timestamp":"2026-07-18T13:14:43.974Z","leadId":"east-austin-dental-UxzwnGek","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\east-austin-dental-UxzwnGek.json"}
+{"timestamp":"2026-07-18T13:14:43.983Z","leadId":"east-austin-dental-UxzwnGek","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T13:14:43.984Z","leadId":"the-dental-centre-W1iEBOoE","stage":"demo","status":"info","message":"Generating demo for: The Dental Centre"}
+{"timestamp":"2026-07-18T13:14:43.988Z","leadId":"the-dental-centre-W1iEBOoE","stage":"demo","status":"info","message":"Config saved: C:\\Users\\HP\\OneDrive\\Documents\\AI Agency\\Client Projects\\dental-ai-generic-calling agent\\dental-ai-generic\\data\\configs\\the-dental-centre-W1iEBOoE.json"}
+{"timestamp":"2026-07-18T13:14:43.997Z","leadId":"the-dental-centre-W1iEBOoE","stage":"demo","status":"pass","message":"✅ Demo generated: dental clinic template | 11 fields configured"}
+{"timestamp":"2026-07-18T13:14:43.998Z","leadId":null,"stage":"demo","status":"info","message":"Complete: 4 customized, 0 errors"}
+{"timestamp":"2026-07-18T13:14:44.120Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 5: Deployment to Render"}
+{"timestamp":"2026-07-18T13:14:44.544Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:14:44.551Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 4 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:14:44.557Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T13:14:44.559Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:14:49.129Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"info","message":"Vercel: deployment dpl_5HtdTmvZiHWdaRJ9ywVvj67ckyJx (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:14:57.472Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-dental-center-pc-rjiv3hju-qef9pp1yo.vercel.app"}
+{"timestamp":"2026-07-18T13:14:59.484Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying demo for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T13:14:59.487Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:15:01.327Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"info","message":"Vercel: deployment dpl_5cQ2M8NFg8BBbWzoeKiuRPmYF8vx (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:15:14.668Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"deploy","status":"pass","message":"✅ Deployed: demo-manos-de-cristo-dental-center-d7mccdky-htw7tnnme.vercel.app"}
+{"timestamp":"2026-07-18T13:15:16.689Z","leadId":"east-austin-dental-UxzwnGek","stage":"deploy","status":"info","message":"Deploying demo for: East Austin Dental"}
+{"timestamp":"2026-07-18T13:15:16.692Z","leadId":"east-austin-dental-UxzwnGek","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:15:18.851Z","leadId":"east-austin-dental-UxzwnGek","stage":"deploy","status":"info","message":"Vercel: deployment dpl_5yENRef3seWX59by9mK1mECTD66q (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:15:25.887Z","leadId":"east-austin-dental-UxzwnGek","stage":"deploy","status":"pass","message":"✅ Deployed: demo-east-austin-dental-uxzwngek-o4ltmiy5s-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T13:15:27.919Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"info","message":"Deploying demo for: The Dental Centre"}
+{"timestamp":"2026-07-18T13:15:27.932Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:15:30.144Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"info","message":"Vercel: deployment dpl_FAfMTtTwym6jrgutMAWwXL9aUqvh (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:15:37.362Z","leadId":"the-dental-centre-W1iEBOoE","stage":"deploy","status":"pass","message":"✅ Deployed: demo-the-dental-centre-w1iebooe-n447yyvzo-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T13:15:39.384Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 4 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:15:39.482Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 6: Outreach Generation"}
+{"timestamp":"2026-07-18T13:15:40.606Z","leadId":null,"stage":"outreach","status":"info","message":"Starting outreach generation"}
+{"timestamp":"2026-07-18T13:15:40.611Z","leadId":null,"stage":"outreach","status":"info","message":"Generating outreach for 4 leads"}
+{"timestamp":"2026-07-18T13:15:40.612Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Generating outreach for: Austin Dental Center, PC"}
+{"timestamp":"2026-07-18T13:15:40.614Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T13:15:41.363Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Satisfaction at Austin Dental Center, PC\""}
+{"timestamp":"2026-07-18T13:15:41.373Z","leadId":"austin-dental-center-pc-RJiV3HJU","stage":"outreach","status":"pass","message":"✅ Outreach generated (81 words)"}
+{"timestamp":"2026-07-18T13:15:41.884Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Generating outreach for: Manos De Cristo Dental Center"}
+{"timestamp":"2026-07-18T13:15:41.885Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T13:15:42.269Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"info","message":"Generated: \"Boost First Impressions at Manos De Cristo Dental Center\""}
+{"timestamp":"2026-07-18T13:15:42.279Z","leadId":"manos-de-cristo-dental-center-d7mCcdKY","stage":"outreach","status":"pass","message":"✅ Outreach generated (71 words)"}
+{"timestamp":"2026-07-18T13:15:42.782Z","leadId":"east-austin-dental-UxzwnGek","stage":"outreach","status":"info","message":"Generating outreach for: East Austin Dental"}
+{"timestamp":"2026-07-18T13:15:42.782Z","leadId":"east-austin-dental-UxzwnGek","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T13:15:43.102Z","leadId":"east-austin-dental-UxzwnGek","stage":"outreach","status":"info","message":"Generated: \"Enhance East Austin Dental's Patient Experience with AI\""}
+{"timestamp":"2026-07-18T13:15:43.112Z","leadId":"east-austin-dental-UxzwnGek","stage":"outreach","status":"pass","message":"✅ Outreach generated (76 words)"}
+{"timestamp":"2026-07-18T13:15:43.617Z","leadId":"the-dental-centre-W1iEBOoE","stage":"outreach","status":"info","message":"Generating outreach for: The Dental Centre"}
+{"timestamp":"2026-07-18T13:15:43.618Z","leadId":"the-dental-centre-W1iEBOoE","stage":"outreach","status":"info","message":"Pain signal: customer experience optimization (general)"}
+{"timestamp":"2026-07-18T13:15:43.915Z","leadId":"the-dental-centre-W1iEBOoE","stage":"outreach","status":"info","message":"Generated: \"Boost Patient Satisfaction at The Dental Centre with AI-Powered Support\""}
+{"timestamp":"2026-07-18T13:15:43.924Z","leadId":"the-dental-centre-W1iEBOoE","stage":"outreach","status":"pass","message":"✅ Outreach generated (69 words)"}
+{"timestamp":"2026-07-18T13:15:44.427Z","leadId":null,"stage":"outreach","status":"info","message":"Complete: 4 generated, 0 errors"}
+{"timestamp":"2026-07-18T13:15:44.454Z","leadId":null,"stage":"pipeline","status":"info","message":"Stage 7: Output Export"}
+{"timestamp":"2026-07-18T13:15:44.906Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T13:15:44.919Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T13:16:09.929Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T13:16:09.959Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T13:23:22.260Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:23:22.275Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:23:22.279Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying demo for: Austin Emergency Dental"}
+{"timestamp":"2026-07-18T13:23:22.285Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:23:24.820Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"info","message":"Vercel: deployment dpl_BWowDhtT7joxNejQnGYj8UnkHTmP (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:23:37.824Z","leadId":"austin-emergency-dental-VrpwODY4","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-emergency-dental-vrpwody4-bxmdk8ttj.vercel.app"}
+{"timestamp":"2026-07-18T13:23:39.853Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:35:20.167Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:35:20.182Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:35:20.185Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying demo for: Emergency Dentist of Austin"}
+{"timestamp":"2026-07-18T13:35:20.199Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:35:23.050Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"info","message":"Vercel: deployment dpl_2viSkwM5BjqPXTSm44ycWxrJ89eC (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:35:29.976Z","leadId":"emergency-dentist-of-austin-dhSsCHHk","stage":"deploy","status":"pass","message":"✅ Deployed: demo-emergency-dentist-of-austin-dhsschhk-qgbulcb41.vercel.app"}
+{"timestamp":"2026-07-18T13:35:31.990Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:35:35.371Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:35:35.385Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:35:35.389Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying demo for: Austin City Dental"}
+{"timestamp":"2026-07-18T13:35:35.403Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:35:38.137Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"info","message":"Vercel: deployment dpl_G5vQSxB8mJBo3VKHo7roH2ntnxgo (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:35:45.215Z","leadId":"austin-city-dental-4pGMKusA","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-city-dental-4pgmkusa-5dq6bi9pv-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T13:35:47.236Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:35:50.573Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:35:50.587Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:35:50.592Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying demo for: Austin Dental Works"}
+{"timestamp":"2026-07-18T13:35:50.607Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:35:53.403Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"info","message":"Vercel: deployment dpl_5DUthq5i44mT5bG6CWdLhomY95eU (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:36:00.232Z","leadId":"austin-dental-works-s0RVjV3Y","stage":"deploy","status":"pass","message":"✅ Deployed: demo-austin-dental-works-s0rvjv3y-6a3dybz4u-manaal6s-projects.vercel.app"}
+{"timestamp":"2026-07-18T13:36:02.244Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T13:36:05.530Z","leadId":null,"stage":"deploy","status":"info","message":"Starting deployment (🔴 LIVE) — Provider: vercel"}
+{"timestamp":"2026-07-18T13:36:05.547Z","leadId":null,"stage":"deploy","status":"info","message":"Deploying 1 demos (🔴 LIVE)"}
+{"timestamp":"2026-07-18T13:36:05.557Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying demo for: myDental at Tech Ridge"}
+{"timestamp":"2026-07-18T13:36:05.633Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Deploying to Vercel..."}
+{"timestamp":"2026-07-18T13:36:08.435Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"info","message":"Vercel: deployment dpl_AUrGFG8GDKxHAeuDgjnmTZQQT9qL (INITIALIZING)"}
+{"timestamp":"2026-07-18T13:36:22.069Z","leadId":"mydental-at-tech-ridge-oVqGeGa0","stage":"deploy","status":"pass","message":"✅ Deployed: demo-mydental-at-tech-ridge-ovqgega0-6m30ya63d.vercel.app"}
+{"timestamp":"2026-07-18T13:36:24.115Z","leadId":null,"stage":"deploy","status":"info","message":"Complete: 1 deployed, 0 skipped, 0 errors"}
+{"timestamp":"2026-07-18T14:32:45.289Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:32:45.344Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T14:34:58.120Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:34:58.148Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T14:37:00.554Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:37:00.590Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T14:38:48.356Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:38:48.393Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}
+{"timestamp":"2026-07-18T14:55:06.404Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:55:46.057Z","leadId":null,"stage":"export","status":"info","message":"Starting output export"}
+{"timestamp":"2026-07-18T14:55:46.095Z","leadId":null,"stage":"export","status":"info","message":"Export complete"}

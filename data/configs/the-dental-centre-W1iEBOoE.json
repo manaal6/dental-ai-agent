@@ -1,0 +1,29 @@
+{
+  "name": "The Dental Centre",
+  "location": "Austin, TX",
+  "website": "https://www.dentalcentreaustin.com/",
+  "phone": "(512) 892-7800",
+  "hours": "Closed · Opens 9 AM Mon",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "The Dental Centre in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 4.8 stars from 294 Google reviews.",
+  "avatarLetter": "T",
+  "_pipeline": {
+    "leadId": "the-dental-centre-W1iEBOoE",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T13:14:43.985Z",
+    "qualificationScore": 72,
+    "verifiedEmail": "care@dentalcentreaustin.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 294,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Emergency Dentist of Austin",
+  "location": "Austin, TX",
+  "website": "https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+  "phone": "(512) 961-6200",
+  "hours": "Closed · Opens 8 AM",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "Emergency Dentist of Austin in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 4.8 stars from 1451 Google reviews.",
+  "avatarLetter": "E",
+  "_pipeline": {
+    "leadId": "emergency-dentist-of-austin-dhSsCHHk",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T10:01:26.472Z",
+    "qualificationScore": 70,
+    "verifiedEmail": "info@emergencydentistofaustin.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 1451,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

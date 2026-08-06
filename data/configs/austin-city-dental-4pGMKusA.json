@@ -1,0 +1,29 @@
+{
+  "name": "Austin City Dental",
+  "location": "Austin, TX",
+  "website": "http://www.austincitydental.com/",
+  "phone": "(512) 451-8256",
+  "hours": "Closed · Opens 7:30 AM Mon",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "Austin City Dental in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 5 stars from 656 Google reviews.",
+  "avatarLetter": "A",
+  "_pipeline": {
+    "leadId": "austin-city-dental-4pGMKusA",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T10:01:26.503Z",
+    "qualificationScore": 70,
+    "verifiedEmail": "info@austincitydental.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 656,
+      "rating": 5,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

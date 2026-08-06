@@ -1,0 +1,29 @@
+{
+  "name": "Austin Dental Center, PC",
+  "location": "Austin, TX",
+  "website": "https://www.smileaustin.com/",
+  "phone": "(512) 233-6645",
+  "hours": "Closed · Opens 7 AM Mon",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "Austin Dental Center, PC in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 4.8 stars from 151 Google reviews.",
+  "avatarLetter": "A",
+  "_pipeline": {
+    "leadId": "austin-dental-center-pc-RJiV3HJU",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T13:14:43.930Z",
+    "qualificationScore": 72,
+    "verifiedEmail": "info@smileaustin.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 151,
+      "rating": 4.8,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

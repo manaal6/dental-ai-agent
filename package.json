@@ -1,0 +1,41 @@
+{
+  "name": "dental-ai-calling-agent",
+  "version": "2.0.0",
+  "description": "Generic real-time AI voice reception agent for dental clinics, configurable via clinic.json, using Groq LLM + Deepgram STT/TTS",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "pipeline": "node pipeline.js",
+    "pipeline:all": "node pipeline.js --all",
+    "pipeline:stage1": "node pipeline.js --stage 1",
+    "pipeline:stage2": "node pipeline.js --stage 2",
+    "pipeline:stage3": "node pipeline.js --stage 3",
+    "pipeline:stage4": "node pipeline.js --stage 4",
+    "pipeline:stage5": "node pipeline.js --stage 5",
+    "pipeline:stage6": "node pipeline.js --stage 6",
+    "pipeline:stage7": "node pipeline.js --stage 7",
+    "pipeline:dry": "node pipeline.js --dry-run",
+    "pipeline:summary": "node pipeline.js --summary",
+    "discover": "node pipeline/stage1-discovery/discover.js",
+    "discover:manual": "node pipeline/stage1-discovery/discover-manual.js --sample",
+    "discover:csv": "node pipeline/stage1-discovery/discover-manual.js --csv",
+    "enrich": "node pipeline/stage2-enrichment/enrich.js",
+    "score": "node pipeline/stage3-qualification/score.js",
+    "customize": "node pipeline/stage4-demo/customize.js",
+    "deploy": "node pipeline/stage5-deploy/deploy.js",
+    "outreach": "node pipeline/stage6-outreach/generate.js",
+    "export": "node pipeline/stage7-output/export.js"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^3.9.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "groq-sdk": "^0.3.3",
+    "ws": "^8.20.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

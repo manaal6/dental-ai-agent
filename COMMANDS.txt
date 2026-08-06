@@ -1,0 +1,108 @@
+═══════════════════════════════════════════════════════════════════
+  AI RECEPTIONIST — ALL COMMANDS
+  100% FREE — No paid API keys needed
+═══════════════════════════════════════════════════════════════════
+
+FIRST TIME SETUP (run once)
+───────────────────────────────────────────────────────────────────
+cd "C:\Users\HP\OneDrive\Documents\AI Agency\Client Projects\dental-ai-generic-calling agent\dental-ai-generic"
+npm install
+
+
+RUN FULL PIPELINE (all 7 stages)
+───────────────────────────────────────────────────────────────────
+node pipeline.js --all
+
+
+RUN SPECIFIC STAGES
+───────────────────────────────────────────────────────────────────
+node pipeline.js --stage 1          # Discovery only
+node pipeline.js --stage 2          # Enrichment only
+node pipeline.js --stage 3          # Scoring only
+node pipeline.js --stage 4          # Demo customization only
+node pipeline.js --stage 5          # Deployment only
+node pipeline.js --stage 6          # Outreach emails only
+node pipeline.js --stage 7          # Export reports only
+
+
+CUSTOM TARGETS (different city/niche)
+───────────────────────────────────────────────────────────────────
+node pipeline.js --all --vertical "HVAC" --city "Dallas" --state "TX"
+node pipeline.js --all --vertical "med spa" --city "Miami" --state "FL"
+node pipeline.js --all --vertical "salon" --city "Chicago" --state "IL"
+node pipeline.js --all --vertical "dental clinic" --city "Phoenix" --state "AZ"
+
+
+DRY RUN (preview without saving/deploying)
+───────────────────────────────────────────────────────────────────
+node pipeline.js --all --dry-run
+
+NOTE: Pipeline runs in LIVE mode by default.
+Use --dry-run to preview without saving/deploying.
+
+
+DEPLOY ONLY (after pipeline ran, deploy remaining demos)
+───────────────────────────────────────────────────────────────────
+node deploy-all.js
+
+
+DEPLOY SINGLE LEAD
+───────────────────────────────────────────────────────────────────
+node pipeline/stage5-deploy/deploy.js --live --lead-id LEAD_ID_HERE
+
+
+GENERATE CLEAN REPORTS (no API calls, just format output)
+───────────────────────────────────────────────────────────────────
+node pipeline/stage7-output/export.js
+
+
+VIEW TODAY'S SUMMARY
+───────────────────────────────────────────────────────────────────
+node pipeline.js --summary
+
+
+START VOICE AGENT (local server)
+───────────────────────────────────────────────────────────────────
+node server.js
+# Then open http://localhost:3000
+
+
+OUTPUT FILES (after running pipeline)
+───────────────────────────────────────────────────────────────────
+# Output is organized by date in data/leads/YYYY-MM-DD/:
+#
+# data/leads/YYYY-MM-DD/
+#   REPORT.md      — Full readable report
+#   OUTREACH.txt   — Copy-paste cold emails
+#   LEADS.txt      — Clean contact table
+#   leads.csv      — Spreadsheet (opens in Excel)
+#   QA-REPORT.md   — Production readiness report
+#
+# Pipeline data stays in data/leads/:
+#   pipeline-leads.json          — Master lead database
+#   stage1-discovered.json       — Raw discovery results
+#   stage2-enriched.json         — Enrichment results
+#   stage3-scored.json           — Scoring results
+#   stage4-customized.json       — Demo configs
+#   stage5-deployed.json         — Deployment results
+#   stage6-outreach.json         — Generated emails
+
+
+WHAT EACH STAGE DOES
+───────────────────────────────────────────────────────────────────
+# Stage 1: Discovery    — Finds businesses via SerpAPI (free)
+# Stage 2: Enrichment   — Scrapes emails from websites (free)
+# Stage 3: Scoring      — Ranks leads 0-100
+# Stage 4: Demo         — Generates customized config per lead
+# Stage 5: Deploy       — Deploys live demos to Vercel (free)
+# Stage 6: Outreach     — Generates cold emails via Groq (free)
+# Stage 7: Export       — Creates clean reports
+
+
+FREE API KEYS USED
+───────────────────────────────────────────────────────────────────
+# SerpAPI:     100 free searches/month (discovery)
+# Groq:        Unlimited free (LLM for outreach)
+# Vercel:      Unlimited free deploys
+# Deepgram:    Free tier (voice agent)
+# Website scraping: Unlimited free (enrichment)

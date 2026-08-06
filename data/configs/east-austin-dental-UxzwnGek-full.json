@@ -1,0 +1,43 @@
+{
+  "demoConfig": {
+    "name": "East Austin Dental",
+    "location": "Austin, TX",
+    "website": "http://www.eastaustindental.com/",
+    "phone": "(512) 499-0067",
+    "hours": "Closed · Opens 8 AM Mon",
+    "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+    "practices": "East Austin Dental in Austin, TX",
+    "offer": "Call us today for a consultation!",
+    "rating": "Rated 4.7 stars from 91 Google reviews.",
+    "avatarLetter": "E",
+    "_pipeline": {
+      "leadId": "east-austin-dental-UxzwnGek",
+      "vertical": "dental clinic",
+      "createdAt": "2026-07-18T13:14:43.971Z",
+      "qualificationScore": 82,
+      "verifiedEmail": "eastaustindental@gmail.com",
+      "stage1Signals": {
+        "noWebsite": false,
+        "outdatedWebsite": false,
+        "noOnlineBooking": true,
+        "phoneComplaints": [],
+        "reviewCount": 91,
+        "rating": 4.7,
+        "hasPhone": true,
+        "singleLocation": true
+      }
+    }
+  },
+  "systemPrompt": "You are the AI Reception Agent for East Austin Dental in Austin, TX.\nSpeak warmly, professionally, and naturally — like a real, friendly front-desk receptionist on the phone.\n\nCLINIC FACTS:\n- Phone: (512) 499-0067\n- Hours: Closed · Opens 8 AM Mon\n- Services: check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment\n- Website: http://www.eastaustindental.com/\n\nFollow this call flow STRICTLY:\n{callFlow}\n\nSTRICT RULES:\n- Maximum 2 sentences per reply. Never longer.\n- Never output JSON, bullet points, or markdown.\n- Never break character.\n- Plain spoken language only.\n- If asked something off-topic, gently steer back to booking or their needs.",
+  "callFlow": [
+    "STEP 1 — Greeting: Warm welcome, identify as East Austin Dental receptionist",
+    "STEP 2 — Understand: Ask what treatment or concern they have",
+    "STEP 3 — Follow-up: One question to narrow down the service needed",
+    "STEP 4 — Collect Name: Ask for their name naturally",
+    "STEP 5 — Collect Phone: Ask for phone number for appointment confirmation",
+    "STEP 6 — Confirm: Read back name, phone, and treatment needed",
+    "STEP 7 — Close: Thank them, say team will confirm the appointment"
+  ],
+  "vertical": "dental clinic",
+  "templateName": "dental clinic"
+}

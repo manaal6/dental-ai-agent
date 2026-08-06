@@ -1,0 +1,29 @@
+{
+  "name": "East Austin Dental",
+  "location": "Austin, TX",
+  "website": "http://www.eastaustindental.com/",
+  "phone": "(512) 499-0067",
+  "hours": "Closed · Opens 8 AM Mon",
+  "services": "check-ups, cleaning, whitening, fillings, Invisalign, root canal, crowns, bridges, wisdom tooth extractions, implants, periodontal treatment",
+  "practices": "East Austin Dental in Austin, TX",
+  "offer": "Call us today for a consultation!",
+  "rating": "Rated 4.7 stars from 91 Google reviews.",
+  "avatarLetter": "E",
+  "_pipeline": {
+    "leadId": "east-austin-dental-UxzwnGek",
+    "vertical": "dental clinic",
+    "createdAt": "2026-07-18T13:14:43.971Z",
+    "qualificationScore": 82,
+    "verifiedEmail": "eastaustindental@gmail.com",
+    "stage1Signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 91,
+      "rating": 4.7,
+      "hasPhone": true,
+      "singleLocation": true
+    }
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "leadId": "austin-primary-dental-TvQufW1o",
+    "businessName": "Austin Primary Dental",
+    "placeId": "ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "address": "6700 West Gate Blvd Ste 103, Austin, TX 78745",
+    "phone": "(512) 808-5651",
+    "website": "https://austinprimarydental.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+    "rating": 4.9,
+    "reviewCount": 365,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 365,
+      "rating": 4.9,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL9iLaGRLW4YRG9VTvQufW1o",
+    "hours": [
+      "Closed · Opens 8 AM Mon"
+    ],
+    "contactVerified": false,
+    "ownerName": null,
+    "verifiedEmail": null,
+    "verifiedPhone": "(512) 808-5651",
+    "emailConfidence": 0,
+    "emailStatus": null,
+    "enrichmentSource": null,
+    "possibleEmails": []
+  },
+  {
+    "leadId": "swish-dental-downtown-4IrRuTmQ",
+    "businessName": "Swish Dental Downtown",
+    "placeId": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "address": "201 W 5th St Ste 175, Austin, TX 78701",
+    "phone": "(512) 713-1099",
+    "website": "https://www.swishsmiles.com/location/downtown",
+    "rating": 4.6,
+    "reviewCount": 932,
+    "vertical": "dental clinic",
+    "city": "Austin",
+    "state": "TX",
+    "signals": {
+      "noWebsite": false,
+      "outdatedWebsite": false,
+      "noOnlineBooking": true,
+      "phoneComplaints": [],
+      "reviewCount": 932,
+      "rating": 4.6,
+      "hasPhone": true,
+      "singleLocation": true
+    },
+    "discoveryScore": 35,
+    "googleUrl": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdWgENLS1RIYReos4IrRuTmQ",
+    "hours": [
+      "Closed · Opens 9 AM Mon"
+    ],
+    "contactVerified": false,
+    "ownerName": null,
+    "verifiedEmail": null,
+    "verifiedPhone": "(512) 713-1099",
+    "emailConfidence": 0,
+    "emailStatus": null,
+    "enrichmentSource": null,
+    "possibleEmails": []
+  }
+]
