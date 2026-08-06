@@ -57,6 +57,13 @@ const server = http.createServer(app);
 const wss    = new WebSocketServer({ server, path: "/ws" });
 
 app.use(express.static(path.join(__dirname)));
+
+// Allow microphone/camera access for the call page
+app.use((_req, res, next) => {
+  res.setHeader("Permissions-Policy", "microphone=*, camera=*, autoplay=()");
+  next();
+});
+
 app.get("/", (_req, res) => res.sendFile(path.join(__dirname, "index.html")));
 const LEADS_FILE = path.join(__dirname, 'leads.json');
 

@@ -304,8 +304,18 @@ fetch('/api/clinic').then(r => r.json()).then(c => {
       try {
         await startMic();
       } catch (e) {
-        setStatus('', 'Microphone access denied');
-        hint.textContent = 'Please allow microphone access and try again.';
+        console.error('Mic error:', e);
+        const errName = e.name || e.constructor?.name || 'Error';
+        if (errName === 'NotAllowedError' || errName === 'PermissionDeniedError') {
+          setStatus('', 'Microphone permission denied');
+          hint.textContent = 'Click the 🔒 lock icon in the address bar → allow Microphone → refresh and try again.';
+        } else if (errName === 'NotFoundError') {
+          setStatus('', 'No microphone found');
+          hint.textContent = 'Please connect a microphone and try again.';
+        } else {
+          setStatus('', 'Microphone error: ' + e.message);
+          hint.textContent = 'Microphone error. Try refreshing the page.';
+        }
         isCallActive = false;
         micBtn.classList.remove('active');
       }
