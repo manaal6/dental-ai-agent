@@ -39,14 +39,14 @@ All 8 known deployments verified LIVE (HTTP 200):
 
 | # | Clinic | URL | Status |
 |---|--------|-----|--------|
-| 1 | East Austin Dental | demo-east-austin-dental-uxzwngek-o4ltmiy5s-manaal6s-projects.vercel.app | ✅ Live |
-| 2 | Manos De Cristo | demo-manos-de-cristo-dental-center-d7mccdky-htw7tnnme.vercel.app | ✅ Live |
-| 3 | Austin Dental Center, PC | demo-austin-dental-center-pc-rjiv3hju-qef9pp1yo.vercel.app | ✅ Live |
-| 4 | The Dental Centre | demo-the-dental-centre-w1iebooe-n447yyvzo-manaal6s-projects.vercel.app | ✅ Live |
-| 5 | Austin Emergency Dental | demo-austin-emergency-dental-vrpwody4-jhercqtdm.vercel.app | ✅ Live |
-| 6 | Emergency Dentist of Austin | demo-emergency-dentist-of-austin-dhsschhk-9188isv5x.vercel.app | ✅ Live |
-| 7 | Austin Dental Works | demo-austin-dental-works-s0rvjv3y-31n83th5b-manaal6s-projects.vercel.app | ✅ Live |
-| 8 | myDental at Tech Ridge | demo-mydental-at-tech-ridge-ovqgega0-6m30ya63d.vercel.app | ✅ Live |
+| 1 | East Austin Dental | demo-east-austin-dental-uxzwngek-p0ni4krja-manaal6s-projects.vercel.app | ✅ Live |
+| 2 | Manos De Cristo | demo-manos-de-cristo-dental-center-d7mccdky-lyve7ivlf.vercel.app | ✅ Live |
+| 3 | Austin Dental Center, PC | demo-austin-dental-center-pc-rjiv3hju-kicutttxp.vercel.app | ✅ Live |
+| 4 | The Dental Centre | demo-the-dental-centre-w1iebooe-r8i02jha6-manaal6s-projects.vercel.app | ✅ Live |
+| 5 | Austin Emergency Dental | demo-austin-emergency-dental-vrpwody4-1keedmt9a.vercel.app | ✅ Live |
+| 6 | Emergency Dentist of Austin | demo-emergency-dentist-of-austin-dhsschhk-lh7bqf02d.vercel.app | ✅ Live |
+| 7 | Austin Dental Works | demo-austin-dental-works-s0rvjv3y-k9dvbdcad-manaal6s-projects.vercel.app | ✅ Live |
+| 8 | myDental at Tech Ridge | demo-mydental-at-tech-ridge-ovqgega0-qxg1bkyqi.vercel.app | ✅ Live |
 
 **Clinic name injection verified** — HTML contains correct `window.CLINIC = {...}` with business-specific data.
 
