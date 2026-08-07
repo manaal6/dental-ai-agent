@@ -22,7 +22,7 @@
   Address:      Corazón, 1000 E 5th St. Ste 110, Austin, TX 78702
   Website:      http://www.eastaustindental.com/
   Reviews:      91 (avg 4.7 stars)
-  Demo URL:     https://demo-east-austin-dental-uxzwngek-p0ni4krja-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-east-austin-dental-uxzwngek-bbm5f58s2-manaal6s-projects.vercel.app
   Status:       active
 
   Email Subject: Enhance East Austin Dental's Patient Experience with AI
@@ -31,7 +31,7 @@
   ····························································
   Hi Dr. Nguyen, 
   
-  I came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-p0ni4krja-manaal6s-projects.vercel.app 
+  I came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-bbm5f58s2-manaal6s-projects.vercel.app 
   
   Best regards, [Your Name]
   ····························································
@@ -46,7 +46,7 @@
   Address:      4911 Harmon Ave, Austin, TX 78751
   Website:      http://www.manosdecristo.org/
   Reviews:      46 (avg 3.2 stars)
-  Demo URL:     https://demo-manos-de-cristo-dental-center-d7mccdky-lyve7ivlf.vercel.app
+  Demo URL:     https://demo-manos-de-cristo-dental-center-d7mccdky-7wzo2gma0.vercel.app
   Status:       active
 
   Email Subject: Boost First Impressions at Manos De Cristo Dental Center
@@ -55,7 +55,7 @@
   ····························································
   Hi Maria, 
   
-  I came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-lyve7ivlf.vercel.app. Would you be open to a quick walkthrough?
+  I came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-7wzo2gma0.vercel.app. Would you be open to a quick walkthrough?
   ····························································
 
 
@@ -68,7 +68,7 @@
   Address:      2304 Hancock Dr #1, Austin, TX 78756
   Website:      https://www.smileaustin.com/
   Reviews:      151 (avg 4.8 stars)
-  Demo URL:     https://demo-austin-dental-center-pc-rjiv3hju-kicutttxp.vercel.app
+  Demo URL:     https://demo-austin-dental-center-pc-rjiv3hju-ekiqabsid.vercel.app
   Status:       active
 
   Email Subject: Boost Patient Satisfaction at Austin Dental Center, PC
@@ -77,7 +77,7 @@
   ····························································
   Hi Austin Dental Center, PC team,
   
-  We came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-kicutttxp.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.
+  We came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-ekiqabsid.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.
   ····························································
 
 
@@ -90,7 +90,7 @@
   Address:      4301 W William Cannon Dr # 240, Austin, TX 78749
   Website:      https://www.dentalcentreaustin.com/
   Reviews:      294 (avg 4.8 stars)
-  Demo URL:     https://demo-the-dental-centre-w1iebooe-r8i02jha6-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-the-dental-centre-w1iebooe-i1ndvpo9t-manaal6s-projects.vercel.app
   Status:       active
 
   Email Subject: Boost Patient Satisfaction at The Dental Centre with AI-Powered Support
@@ -101,7 +101,7 @@
   
   We've been researching ways to improve customer experience in the dental industry, and it's clear that The Dental Centre is committed to delivering top-notch care. That's why we'd like to introduce you to our AI receptionist product, designed to help streamline communication and enhance the patient experience.
   
-  Take a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-r8i02jha6-manaal6s-projects.vercel.app
+  Take a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-i1ndvpo9t-manaal6s-projects.vercel.app
   
   Looking forward to hearing your thoughts.
   
@@ -118,7 +118,7 @@
   Address:      2500 W William Cannon Dr Ste 103 (Building #1, Austin, TX 78745
   Website:      https://emergencydentalaustin.com/
   Reviews:      747 (avg 4.9 stars)
-  Demo URL:     https://demo-austin-emergency-dental-vrpwody4-1keedmt9a.vercel.app
+  Demo URL:     https://demo-austin-emergency-dental-vrpwody4-2ytew4b3o.vercel.app
   Status:       dropped
 
   Email Subject: Boost Patient Satisfaction at Austin Emergency Dental
@@ -127,7 +127,7 @@
   ····························································
   Hi Austin Emergency Dental team,
   
-  I came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-1keedmt9a.vercel.app. Looking forward to connecting.
+  I came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-2ytew4b3o.vercel.app. Looking forward to connecting.
   ····························································
 
 
@@ -140,7 +140,7 @@
   Address:      1030 Norwood Park Blvd #324, Austin, TX 78753
   Website:      https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing
   Reviews:      1452 (avg 4.8 stars)
-  Demo URL:     https://demo-emergency-dentist-of-austin-dhsschhk-lh7bqf02d.vercel.app
+  Demo URL:     https://demo-emergency-dentist-of-austin-dhsschhk-kibwa66ag.vercel.app
   Status:       dropped
 
   Email Subject: Boost Patient Satisfaction with Automated Welcomes
@@ -149,7 +149,7 @@
   ····························································
   Hi Emergency Dentist of Austin team, 
   
-  We've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-lh7bqf02d.vercel.app. Let me know if you have any questions.
+  We've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-kibwa66ag.vercel.app. Let me know if you have any questions.
   ····························································
 
 
@@ -162,7 +162,7 @@
   Address:      4601 N Lamar Blvd #503, Austin, TX 78751
   Website:      https://www.austindentalworks.com/
   Reviews:      626 (avg 4.9 stars)
-  Demo URL:     https://demo-austin-dental-works-s0rvjv3y-k9dvbdcad-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-austin-dental-works-s0rvjv3y-paewcq21f-manaal6s-projects.vercel.app
   Status:       dropped
 
   Email Subject: Boost Patient Loyalty with AI-Powered Reception
@@ -171,7 +171,7 @@
   ····························································
   Hi Austin Dental Works team,
   
-  I came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-k9dvbdcad-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.
+  I came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-paewcq21f-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.
   
   Best regards, [Your Name]
   ····························································
@@ -186,7 +186,7 @@
   Address:      13000 N Interstate Hwy 35 Ste 206, Austin, TX 78753
   Website:      https://www.mydental.com/locations/tech-ridge/?utm_source=google&utm_medium=organic&utm_campaign=gbp
   Reviews:      1487 (avg 4.8 stars)
-  Demo URL:     https://demo-mydental-at-tech-ridge-ovqgega0-qxg1bkyqi.vercel.app
+  Demo URL:     https://demo-mydental-at-tech-ridge-ovqgega0-8pmrhskpy.vercel.app
   Status:       active
 
   Email Subject: Boost Patient Satisfaction at myDental at Tech Ridge
@@ -195,7 +195,7 @@
   ····························································
   Hi [Recipient's Name], 
   
-  We've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-qxg1bkyqi.vercel.app.
+  We've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-8pmrhskpy.vercel.app.
   ····························································
 
 
@@ -212,7 +212,7 @@
   Address:      Corazón, 1000 E 5th St. Ste 110, Austin, TX 78702
   Website:      http://www.eastaustindental.com/
   Reviews:      91 (avg 4.7 stars)
-  Demo URL:     https://demo-east-austin-dental-uxzwngek-p0ni4krja-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-east-austin-dental-uxzwngek-bbm5f58s2-manaal6s-projects.vercel.app
 
   Email Subject: Enhance East Austin Dental's Patient Experience with AI
 
@@ -220,7 +220,7 @@
   ····························································
   Hi Dr. Nguyen, 
   
-  I came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-p0ni4krja-manaal6s-projects.vercel.app 
+  I came across East Austin Dental's commitment to delivering exceptional patient experiences. With the rise of online reviews and competition, it's clear that East Austin Dental is actively seeking ways to stand out. Our AI-powered receptionist can help streamline patient interactions, reduce wait times, and boost overall satisfaction. I'd love to show you a personalized demo to explore how this can benefit your practice. Check it out here: demo-east-austin-dental-uxzwngek-bbm5f58s2-manaal6s-projects.vercel.app 
   
   Best regards, [Your Name]
   ····························································
@@ -236,7 +236,7 @@
   Address:      4911 Harmon Ave, Austin, TX 78751
   Website:      http://www.manosdecristo.org/
   Reviews:      46 (avg 3.2 stars)
-  Demo URL:     https://demo-manos-de-cristo-dental-center-d7mccdky-lyve7ivlf.vercel.app
+  Demo URL:     https://demo-manos-de-cristo-dental-center-d7mccdky-7wzo2gma0.vercel.app
 
   Email Subject: Boost First Impressions at Manos De Cristo Dental Center
 
@@ -244,7 +244,7 @@
   ····························································
   Hi Maria, 
   
-  I came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-lyve7ivlf.vercel.app. Would you be open to a quick walkthrough?
+  I came across your recent survey results highlighting an interest in enhancing customer experience at Manos De Cristo Dental Center. As someone who values seamless interactions, I'd love to introduce our AI-powered receptionist solution. It can handle tasks like booking appointments, answering common questions, and even sending personalized messages. I've set up a demo for you to explore our capabilities: demo-manos-de-cristo-dental-center-d7mccdky-7wzo2gma0.vercel.app. Would you be open to a quick walkthrough?
   ····························································
 
   Status: needs_review
@@ -258,7 +258,7 @@
   Address:      2304 Hancock Dr #1, Austin, TX 78756
   Website:      https://www.smileaustin.com/
   Reviews:      151 (avg 4.8 stars)
-  Demo URL:     https://demo-austin-dental-center-pc-rjiv3hju-kicutttxp.vercel.app
+  Demo URL:     https://demo-austin-dental-center-pc-rjiv3hju-ekiqabsid.vercel.app
 
   Email Subject: Boost Patient Satisfaction at Austin Dental Center, PC
 
@@ -266,7 +266,7 @@
   ····························································
   Hi Austin Dental Center, PC team,
   
-  We came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-kicutttxp.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.
+  We came across Austin Dental Center, PC as a top-rated dental practice in the area and noticed you're looking for ways to improve customer experience. Our AI receptionist product can help you streamline patient communication, reduce wait times, and provide a more personalized experience. We'd love to show you how. Check out a demo of our product here: demo-austin-dental-center-pc-rjiv3hju-ekiqabsid.vercel.app. Let us know if you have any questions or if there's a good time to discuss further.
   ····························································
 
   Status: needs_review
@@ -280,7 +280,7 @@
   Address:      4301 W William Cannon Dr # 240, Austin, TX 78749
   Website:      https://www.dentalcentreaustin.com/
   Reviews:      294 (avg 4.8 stars)
-  Demo URL:     https://demo-the-dental-centre-w1iebooe-r8i02jha6-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-the-dental-centre-w1iebooe-i1ndvpo9t-manaal6s-projects.vercel.app
 
   Email Subject: Boost Patient Satisfaction at The Dental Centre with AI-Powered Support
 
@@ -290,7 +290,7 @@
   
   We've been researching ways to improve customer experience in the dental industry, and it's clear that The Dental Centre is committed to delivering top-notch care. That's why we'd like to introduce you to our AI receptionist product, designed to help streamline communication and enhance the patient experience.
   
-  Take a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-r8i02jha6-manaal6s-projects.vercel.app
+  Take a look at our demo to see how AI can help: demo-the-dental-centre-w1iebooe-i1ndvpo9t-manaal6s-projects.vercel.app
   
   Looking forward to hearing your thoughts.
   
@@ -308,7 +308,7 @@
   Address:      2500 W William Cannon Dr Ste 103 (Building #1, Austin, TX 78745
   Website:      https://emergencydentalaustin.com/
   Reviews:      747 (avg 4.9 stars)
-  Demo URL:     https://demo-austin-emergency-dental-vrpwody4-1keedmt9a.vercel.app
+  Demo URL:     https://demo-austin-emergency-dental-vrpwody4-2ytew4b3o.vercel.app
 
   Email Subject: Boost Patient Satisfaction at Austin Emergency Dental
 
@@ -316,7 +316,7 @@
   ····························································
   Hi Austin Emergency Dental team,
   
-  I came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-1keedmt9a.vercel.app. Looking forward to connecting.
+  I came across Austin Emergency Dental's commitment to delivering top-notch dental care to the community. As you continue to excel, I noticed you're actively seeking ways to enhance the patient experience. Our AI receptionist solution can help streamline your front desk, freeing up staff to focus on what matters most - care. Would you like to see how it works? I'd be happy to walk you through a personalized demo: demo-austin-emergency-dental-vrpwody4-2ytew4b3o.vercel.app. Looking forward to connecting.
   ····························································
 
   Status: needs_review
@@ -330,7 +330,7 @@
   Address:      1030 Norwood Park Blvd #324, Austin, TX 78753
   Website:      https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing
   Reviews:      1452 (avg 4.8 stars)
-  Demo URL:     https://demo-emergency-dentist-of-austin-dhsschhk-lh7bqf02d.vercel.app
+  Demo URL:     https://demo-emergency-dentist-of-austin-dhsschhk-kibwa66ag.vercel.app
 
   Email Subject: Boost Patient Satisfaction with Automated Welcomes
 
@@ -338,7 +338,7 @@
   ····························································
   Hi Emergency Dentist of Austin team, 
   
-  We've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-lh7bqf02d.vercel.app. Let me know if you have any questions.
+  We've been researching ways to enhance customer experience in the dental industry, and we think our AI receptionist could be a game-changer for you. By automating welcome calls, you can free up staff to focus on patient care and reduce no-shows. I'd love to show you how it works - check out a live demo at demo-emergency-dentist-of-austin-dhsschhk-kibwa66ag.vercel.app. Let me know if you have any questions.
   ····························································
 
   Status: needs_review
@@ -352,7 +352,7 @@
   Address:      4601 N Lamar Blvd #503, Austin, TX 78751
   Website:      https://www.austindentalworks.com/
   Reviews:      626 (avg 4.9 stars)
-  Demo URL:     https://demo-austin-dental-works-s0rvjv3y-k9dvbdcad-manaal6s-projects.vercel.app
+  Demo URL:     https://demo-austin-dental-works-s0rvjv3y-paewcq21f-manaal6s-projects.vercel.app
 
   Email Subject: Boost Patient Loyalty with AI-Powered Reception
 
@@ -360,7 +360,7 @@
   ····························································
   Hi Austin Dental Works team,
   
-  I came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-k9dvbdcad-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.
+  I came across your name in a study on improving customer experience in dental practices. I'd love to share how our AI receptionist, designed for busy offices like yours, can streamline patient interactions and free up staff to focus on care. Check out a demo of our product here: demo-austin-dental-works-s0rvjv3y-paewcq21f-manaal6s-projects.vercel.app. Would love to discuss how we can support your team's goals.
   
   Best regards, [Your Name]
   ····························································
@@ -398,7 +398,7 @@
   Address:      13000 N Interstate Hwy 35 Ste 206, Austin, TX 78753
   Website:      https://www.mydental.com/locations/tech-ridge/?utm_source=google&utm_medium=organic&utm_campaign=gbp
   Reviews:      1487 (avg 4.8 stars)
-  Demo URL:     https://demo-mydental-at-tech-ridge-ovqgega0-qxg1bkyqi.vercel.app
+  Demo URL:     https://demo-mydental-at-tech-ridge-ovqgega0-8pmrhskpy.vercel.app
 
   Email Subject: Boost Patient Satisfaction at myDental at Tech Ridge
 
@@ -406,7 +406,7 @@
   ····························································
   Hi [Recipient's Name], 
   
-  We've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-qxg1bkyqi.vercel.app.
+  We've been researching ways to improve customer experience in the dental industry, and it seems that myDental at Tech Ridge is looking to enhance patient satisfaction. Our AI-powered receptionist can streamline your front desk operations, freeing up staff to focus on patient care. I'd love to show you how our solution can make a difference. Take a look at this demo and let me know if you'd like to discuss further: demo-mydental-at-tech-ridge-ovqgega0-8pmrhskpy.vercel.app.
   ····························································
 
   Status: needs_review
