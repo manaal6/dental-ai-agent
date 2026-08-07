@@ -86,14 +86,12 @@ let CLINIC = { name: "Your Clinic", location: "", avatarLetter: "?" };
 // Leave empty to use the current host (works when server.js runs on same host)
 let WS_SERVER = "";
 
-fetch('/api/clinic').then(r => r.json()).then(c => {
-  CLINIC = c;
-  document.title = `Talk to ${c.name}`;
-  document.getElementById('avatarLetter').textContent = c.avatarLetter || c.name[0];
-  document.getElementById('agentName').textContent = c.name;
-  document.getElementById('agentSub').textContent = `AI Receptionist · ${c.name}${c.location ? ', ' + c.location : ''}`;
-  document.getElementById('hint').textContent = `Tap the mic to start talking with ${c.name}`;
-}).catch(() => {});
+// Update page with clinic data
+document.title = `Talk to ${CLINIC.name}`;
+document.getElementById('avatarLetter').textContent = CLINIC.avatarLetter || CLINIC.name[0];
+document.getElementById('agentName').textContent = CLINIC.name;
+document.getElementById('agentSub').textContent = `AI Receptionist · ${CLINIC.name}${CLINIC.location ? ', ' + CLINIC.location : ''}`;
+document.getElementById('hint').textContent = `Tap the mic to start talking with ${CLINIC.name}`;
 
 (() => {
   const micBtn      = document.getElementById('micBtn');
