@@ -4,3 +4,4 @@ data/leads/
 data/configs/
 data/logs/
 *.log
+.claude
