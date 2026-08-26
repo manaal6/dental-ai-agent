@@ -1,6 +1,5 @@
 .env
 node_modules/
-data/leads/
-data/configs/
-data/logs/
+data/
 *.log
+.claude
