@@ -154,7 +154,7 @@ async function handleUserTurn(ws, text, history, speakingRef) {
     const t0 = Date.now();
 
     const stream = await groq.chat.completions.create({
-      model:       "llama-3.1-8b-instant",
+      model:       "qwen/qwen3.8-27b",
       stream:      true,
       max_tokens:  180,
       temperature: 0.7,
