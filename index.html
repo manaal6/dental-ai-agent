@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title id="pageTitle">Clinic Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="dashboard.css"/>
 </head>
@@ -410,7 +411,7 @@ fetch('/api/clinic').then(r => r.json()).then(c => {
   document.getElementById('pageTitle').textContent = `${c.name} · Reception Dashboard`;
   document.title = `${c.name} · Reception Dashboard`;
   document.getElementById('sbLogoName').textContent = c.name;
-  document.getElementById('sbLogoSub').textContent = c.name;
+  document.getElementById('sbLogoSub').textContent = 'AI Receptionist';
   document.getElementById('talkToLabel').textContent = `Talk to ${c.name}`;
   document.getElementById('topbarBrand').textContent = c.name;
   document.getElementById('headerAvatar').textContent = letter;

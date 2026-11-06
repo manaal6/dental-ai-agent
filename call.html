@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Talk to Your Clinic</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="dashboard.css"/>
 <style>
   body{display:flex;align-items:center;justify-content:center;min-height:100vh;background:var(--bg-base);font-family:var(--font-ui);color:var(--text-primary)}
@@ -81,17 +82,26 @@
 </div>
 
 <script>
-let CLINIC = { name: "Your Clinic", location: "", avatarLetter: "?" };
-// WS_SERVER: Set this to the Render/Railway server URL for WebSocket connections
-// Leave empty to use the current host (works when server.js runs on same host)
+let CLINIC = { name: "Dental Clinic", location: "", avatarLetter: "?" };
 let WS_SERVER = "";
 
-// Update page with clinic data
-document.title = `Talk to ${CLINIC.name}`;
-document.getElementById('avatarLetter').textContent = CLINIC.avatarLetter || CLINIC.name[0];
-document.getElementById('agentName').textContent = CLINIC.name;
-document.getElementById('agentSub').textContent = `AI Receptionist · ${CLINIC.name}${CLINIC.location ? ', ' + CLINIC.location : ''}`;
-document.getElementById('hint').textContent = `Tap the mic to start talking with ${CLINIC.name}`;
+function applyClinicData(c) {
+  CLINIC = c;
+  const letter = c.avatarLetter || (c.name ? c.name[0] : 'D');
+  document.title = `Talk to ${c.name}`;
+  const avatarLetterEl = document.getElementById('avatarLetter');
+  if (avatarLetterEl) avatarLetterEl.textContent = letter;
+  const agentNameEl = document.getElementById('agentName');
+  if (agentNameEl) agentNameEl.textContent = c.name;
+  const agentSubEl = document.getElementById('agentSub');
+  if (agentSubEl) agentSubEl.textContent = `AI Receptionist · ${c.name}${c.location ? ', ' + c.location : ''}`;
+  const hintEl = document.getElementById('hint');
+  if (hintEl) hintEl.textContent = `Tap the mic to start talking with ${c.name}`;
+}
+
+fetch('/api/clinic').then(r => r.json()).then(applyClinicData).catch(() => {
+  applyClinicData(CLINIC);
+});
 
 (() => {
   const micBtn      = document.getElementById('micBtn');

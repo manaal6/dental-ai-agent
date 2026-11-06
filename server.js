@@ -43,19 +43,23 @@ const GROQ_API_KEY     = process.env.GROQ_API_KEY;
 const VOICE            = process.env.VOICE || "aura-asteria-en";
 const PORT             = process.env.PORT  || 3000;
 
-if (!DEEPGRAM_API_KEY || DEEPGRAM_API_KEY === "your_deepgram_api_key_here") {
-  console.error("❌  DEEPGRAM_API_KEY missing"); process.exit(1);
+const hasDeepgram = Boolean(DEEPGRAM_API_KEY && DEEPGRAM_API_KEY !== "your_deepgram_api_key_here");
+const hasGroq     = Boolean(GROQ_API_KEY && GROQ_API_KEY !== "your_groq_api_key_here");
+
+if (!hasDeepgram) {
+  console.warn("⚠️  DEEPGRAM_API_KEY is not set in .env. Voice synthesis/transcription will be unavailable until added.");
 }
-if (!GROQ_API_KEY || GROQ_API_KEY === "your_groq_api_key_here") {
-  console.error("❌  GROQ_API_KEY missing"); process.exit(1);
+if (!hasGroq) {
+  console.warn("⚠️  GROQ_API_KEY is not set in .env. AI response generation will be unavailable until added.");
 }
 
-const groq = new Groq({ apiKey: GROQ_API_KEY });
+const groq = hasGroq ? new Groq({ apiKey: GROQ_API_KEY }) : null;
 
 const app    = express();
 const server = http.createServer(app);
 const wss    = new WebSocketServer({ server, path: "/ws" });
 
+app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
 // Allow microphone/camera access for the call page
@@ -67,7 +71,15 @@ app.use((_req, res, next) => {
 app.get("/", (_req, res) => res.sendFile(path.join(__dirname, "index.html")));
 const LEADS_FILE = path.join(__dirname, 'leads.json');
 
-app.get('/api/clinic', (_req, res) => res.json(clinic));
+function getClinic() {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, "clinic.json"), "utf8"));
+  } catch {
+    return clinic;
+  }
+}
+
+app.get('/api/clinic', (_req, res) => res.json(getClinic()));
 
 app.get('/api/leads', (_req, res) => {
   try {
@@ -81,6 +93,9 @@ app.get('/api/leads', (_req, res) => {
 const httpsAgent = new https.Agent({ keepAlive: true, maxSockets: 6 });
 
 function ttsAudioBase64(text) {
+  if (!hasDeepgram) {
+    return Promise.resolve(null);
+  }
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({ text });
     const req  = https.request({
@@ -128,7 +143,14 @@ async function handleUserTurn(ws, text, history, speakingRef) {
   history.push({ role: "user", content: text });
   safeSend(ws, { type: "user_transcript", text });
 
+  if (!groq) {
+    const errorMsg = "AI backend is not configured yet. Please configure GROQ_API_KEY in .env.";
+    safeSend(ws, { type: "ai_text", text: errorMsg });
+    return;
+  }
+
   try {
+    const currentClinic = getClinic();
     const t0 = Date.now();
 
     const stream = await groq.chat.completions.create({
@@ -139,21 +161,21 @@ async function handleUserTurn(ws, text, history, speakingRef) {
       messages: [
         {
           role: "system",
-          content: `You are ${clinic.name}, the AI Reception Agent for ${clinic.name} in ${clinic.location} (${clinic.website}).
+          content: `You are ${currentClinic.name}, the AI Reception Agent for ${currentClinic.name} in ${currentClinic.location} (${currentClinic.website}).
 Speak warmly, professionally, and naturally — like a real, friendly front-desk receptionist on the phone.
 
 CLINIC FACTS (use only if relevant/asked):
-- ${clinic.practices}
-- Phone: ${clinic.phone}. Also bookable via WhatsApp.
-- Hours: ${clinic.hours}.
-- Services: ${clinic.services}.
-- ${clinic.offer}
-- ${clinic.rating}
+- ${currentClinic.practices || currentClinic.name}
+- Phone: ${currentClinic.phone || ''}. Also bookable via WhatsApp.
+- Hours: ${currentClinic.hours || 'Mon-Fri 9am-5pm'}.
+- Services: ${currentClinic.services || 'General dentistry'}.
+- ${currentClinic.offer || ''}
+- ${currentClinic.rating || ''}
 
 Follow this call flow STRICTLY in order. Do NOT skip any step.
 
 STEP 1 — Greeting (first message only)
-Greet warmly, introduce yourself as receptionist from ${clinic.name} in ${clinic.location}. Max 2 sentences.
+Greet warmly, introduce yourself as receptionist from ${currentClinic.name} in ${currentClinic.location || ''}. Max 2 sentences.
 
 STEP 2 — Understand the Need
 Ask: "What can I help you with today — are you looking to book an appointment, or do you have a question about a treatment?"
@@ -379,6 +401,11 @@ function createSTTSession(clientWs, history, processingRef, speakingRef, session
 
   function connect() {
     if (!shouldRun) return;
+    if (!hasDeepgram) {
+      console.warn("  ⚠️ Deepgram STT skipped: DEEPGRAM_API_KEY not configured.");
+      safeSend(ws, { type: "system_notice", text: "Voice STT unavailable. Text chat is active." });
+      return;
+    }
     finalBuffer = "";   // FIX 3: clear buffer on every reconnect
     if (silenceTimer) { clearTimeout(silenceTimer); silenceTimer = null; }
     console.log("  🟡 Deepgram STT: connecting…");
